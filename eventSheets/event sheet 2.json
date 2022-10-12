@@ -1,0 +1,597 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 622130070848202
+		},
+		{
+			"eventType": "variable",
+			"name": "PlayerDirection",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 479387720277530
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 738091935321106
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "score",
+					"sid": 258642916336725,
+					"parameters": {
+						"text": "\"Score: \" & score"
+					}
+				}
+			],
+			"sid": 420978395084627
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 202727503915922,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "button_nextLevel"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 184100493447800,
+					"parameters": {
+						"layout": "Test World"
+					}
+				}
+			],
+			"sid": 930702928267106
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Player",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 794296471939126,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "player_box",
+							"sid": 114650786456800,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 814470734903136,
+							"parameters": {
+								"variable": "PlayerDirection",
+								"value": "-1"
+							}
+						}
+					],
+					"sid": 774951661003784
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 931233761311304,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "player_box",
+							"sid": 272586892778669,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 662438681167047,
+							"parameters": {
+								"variable": "PlayerDirection",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 338624920041182
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 882620482190651,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "player_box",
+							"sid": 263387850710003,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						}
+					],
+					"sid": 858505948261983
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player_box",
+							"sid": 103874900013965,
+							"parameters": {
+								"object": "exit"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "player_box",
+							"sid": 622752765590898
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "player_box",
+							"sid": 548603591208022,
+							"parameters": {
+								"object": "particleRespawn",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 508624071598289,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 981120907438678,
+							"parameters": {
+								"layout": "Win Screen"
+							}
+						}
+					],
+					"sid": 847521344692999
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player_box",
+							"sid": 864936721130888,
+							"parameters": {
+								"object": "collisionDeath"
+							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player_box",
+							"sid": 276097511123229,
+							"parameters": {
+								"object": "enemy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "player_box",
+							"sid": 899408473655423
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "player_box",
+							"sid": 794792824165969,
+							"parameters": {
+								"object": "particleRespawn",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 271027618466714,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "spawnPoint",
+							"sid": 173347589523762,
+							"parameters": {
+								"object": "player_box",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 308556757804298,
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "player_box",
+							"sid": 479678429247514,
+							"parameters": {
+								"object": "coin"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "coin",
+							"sid": 927130797835152
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 113379764127152,
+							"parameters": {
+								"variable": "Score",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 913493731123681
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 533577964843900,
+							"parameters": {
+								"key": 74
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "comment",
+							"text": "Spawn Attack Hitbox"
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "player_box",
+							"sid": 931121778057686,
+							"parameters": {
+								"object": "atkHitbox",
+								"layer": "0",
+								"image-point": "1",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"type": "comment",
+							"text": "Position Attack Hitbox in front of player"
+						},
+						{
+							"id": "set-x",
+							"objectClass": "atkHitbox",
+							"sid": 520595611188562,
+							"parameters": {
+								"x": "Self.X + 16 * PlayerDirection"
+							}
+						},
+						{
+							"type": "comment",
+							"text": "Face same direction as player"
+						},
+						{
+							"id": "set-width",
+							"objectClass": "atkHitbox",
+							"sid": 348976481381415,
+							"parameters": {
+								"width": "Self.Width * PlayerDirection"
+							}
+						},
+						{
+							"type": "comment",
+							"text": "Attach Attack Hitbox to player"
+						},
+						{
+							"id": "add-child",
+							"objectClass": "player_box",
+							"sid": 131876606776207,
+							"parameters": {
+								"child": "atkHitbox",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": false
+							}
+						}
+					],
+					"sid": 191549968908261
+				}
+			],
+			"sid": 732357798506016
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Attack Group",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "atkHitbox",
+							"sid": 982738402990252,
+							"parameters": {
+								"animation": "\"Default\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "atkHitbox",
+							"sid": 604032436703512
+						}
+					],
+					"sid": 855279898021928
+				}
+			],
+			"sid": 275314571270797
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Enemy",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "enemy",
+							"sid": 420240339268429,
+							"parameters": {
+								"object": "EdgeMarker"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 253043491111519,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "enemy",
+									"sid": 906325757153270,
+									"parameters": {
+										"instance-variable": "State",
+										"comparison": 0,
+										"value": "\"left\""
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "enemy",
+									"sid": 998441509239818,
+									"parameters": {
+										"instance-variable": "State",
+										"value": "\"right\""
+									}
+								}
+							],
+							"sid": 615449266431794
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 874445837954779
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "enemy",
+									"sid": 622412300374805,
+									"parameters": {
+										"instance-variable": "State",
+										"value": "\"left\""
+									}
+								}
+							],
+							"sid": 336793663441829
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "enemy",
+							"sid": 428169570575823,
+							"parameters": {
+								"instance-variable": "State",
+								"comparison": 0,
+								"value": "\"left\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "enemy",
+							"sid": 760464650147975,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "enemy",
+							"sid": 328138723578490,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 406569093571897
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "enemy",
+							"sid": 572255754382021,
+							"parameters": {
+								"instance-variable": "State",
+								"comparison": 0,
+								"value": "\"right\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "enemy",
+							"sid": 476272964212168,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "enemy",
+							"sid": 594067264449823,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 995785751339441
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "enemy",
+							"sid": 970577672867625,
+							"parameters": {
+								"object": "atkHitbox"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "enemy",
+							"sid": 203978369904955
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "enemy",
+							"sid": 572387166804387,
+							"parameters": {
+								"object": "particleRespawn",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 238719734979472
+				}
+			],
+			"sid": 635166202586353
+		}
+	],
+	"sid": 610213650637954
+}

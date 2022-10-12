@@ -31,6 +31,30 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -53,6 +77,22 @@
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "destroy",
+			"name": "Destroy outside layout",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "flcwctv6fj2",
@@ -62,7 +102,22 @@
 			"tiled_background",
 			"Keyboard",
 			"sprite_collision_death",
-			"sprite_start"
+			"sprite_start",
+			"youWin",
+			"TB_ground",
+			"spawnPoint",
+			"score",
+			"particleRespawn",
+			"movingPlatform",
+			"Mouse",
+			"exit",
+			"enemy",
+			"EdgeMarker",
+			"collisionDeath",
+			"coin",
+			"button_nextLevel",
+			"atkHitbox",
+			"player_box"
 		],
 		"subfolders": []
 	},
@@ -74,13 +129,16 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Test World",
+			"Win Screen"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,20 @@
+{
+	"name": "particleRespawn",
+	"plugin-id": "Particles",
+	"sid": 976499687747737,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 16,
+		"height": 16,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9712123,
+		"useCollisionPoly": true
+	}
+}
