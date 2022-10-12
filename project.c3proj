@@ -117,7 +117,8 @@
 			"coin",
 			"button_nextLevel",
 			"atkHitbox",
-			"player_box"
+			"player_box",
+			"txtControls"
 		],
 		"subfolders": []
 	},
