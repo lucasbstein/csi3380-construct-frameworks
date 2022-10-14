@@ -105,6 +105,23 @@
 								"variable": "PlayerDirection",
 								"value": "-1"
 							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "player_box",
+							"sid": 472787933656038,
+							"parameters": {
+								"state": "mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "player_box",
+							"sid": 379348229524222,
+							"parameters": {
+								"animation": "\"Running\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 774951661003784
@@ -139,6 +156,23 @@
 								"variable": "PlayerDirection",
 								"value": "1"
 							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "player_box",
+							"sid": 523494654586220,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "player_box",
+							"sid": 980960042629153,
+							"parameters": {
+								"animation": "\"Running\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 338624920041182
@@ -159,7 +193,7 @@
 						{
 							"id": "simulate-control",
 							"objectClass": "player_box",
-							"sid": 263387850710003,
+							"sid": 993108855144526,
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "jump"
@@ -167,6 +201,40 @@
 						}
 					],
 					"sid": 858505948261983
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 912838795600914,
+							"parameters": {
+								"key": 68
+							}
+						},
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 767499196556756,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "player_box",
+							"sid": 572567621394499,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 545688038831080,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
