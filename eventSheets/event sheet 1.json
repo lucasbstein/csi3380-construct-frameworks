@@ -86,12 +86,6 @@
 					"parameters": {
 						"key": 32
 					}
-				},
-				{
-					"id": "is-jumping",
-					"objectClass": "sprite_player",
-					"sid": 718315227258966,
-					"behaviorType": "Platform"
 				}
 			],
 			"actions": [

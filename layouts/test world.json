@@ -7,18 +7,16 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "player_box",
+					"type": "player_sprite",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Idle",
+						"initial-animation": "idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 16,
-					"instanceVariables": {
-						"Attack": false
-					},
+					"instanceVariables": {},
 					"behaviors": {
 						"Platform": {
 							"properties": {
@@ -30,23 +28,18 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						},
-						"ScrollTo": {
-							"properties": {
+								"default-controls": false,
 								"enabled": true
 							}
 						}
 					},
 					"world": {
 						"x": 64,
-						"y": 448,
+						"y": 464,
 						"width": 32,
 						"height": 32,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -860,7 +853,7 @@
 					}
 				},
 				{
-					"type": "atkHitbox",
+					"type": "sword_attack_hitbox",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Default",
@@ -1555,6 +1548,55 @@
 						"height": 112,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "player_box",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 62,
+					"instanceVariables": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 250,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 450,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 32,
+						"y": 464,
+						"width": 7,
+						"height": 21,
+						"originX": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
