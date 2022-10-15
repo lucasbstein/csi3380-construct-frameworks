@@ -3,7 +3,38 @@
 	"plugin-id": "Sprite",
 	"sid": 612940299456274,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Health",
+			"type": "number",
+			"desc": "",
+			"sid": 262337809126765
+		},
+		{
+			"name": "Max_Health",
+			"type": "number",
+			"desc": "",
+			"sid": 686272848014712
+		},
+		{
+			"name": "Invincible",
+			"type": "boolean",
+			"desc": "",
+			"sid": 717747167885172
+		},
+		{
+			"name": "Charge_Jump",
+			"type": "boolean",
+			"desc": "",
+			"sid": 223855611191163
+		},
+		{
+			"name": "Double_Jump",
+			"type": "boolean",
+			"desc": "",
+			"sid": 206620214617745
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",

@@ -55,6 +55,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -93,6 +101,14 @@
 			"author": "Scirra",
 			"version": "r308.2",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "flcwctv6fj2",
@@ -103,10 +119,10 @@
 			"Keyboard",
 			"sprite_collision_death",
 			"sprite_start",
-			"youWin",
+			"txtYouWin",
 			"TB_ground",
 			"spawnPoint",
-			"score",
+			"txtScore",
 			"particleRespawn",
 			"movingPlatform",
 			"Mouse",
@@ -119,12 +135,30 @@
 			"sword_attack_hitbox",
 			"player_sprite",
 			"txtControls",
-			"player_box"
+			"player_box",
+			"enemy_health_gone",
+			"enemy_health_remaining",
+			"player_health_bar",
+			"txtHealth",
+			"player_bar_gone",
+			"Tilemap_Ground",
+			"txtChargeJump",
+			"player_jump_charge_bar",
+			"txtbox_sprite"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"enemy",
+				"enemy_health_gone",
+				"enemy_health_remaining"
+			],
+			"selectMode": "normal"
+		}
+	],
 	"families": {
 		"items": [],
 		"subfolders": []
