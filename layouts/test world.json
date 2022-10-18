@@ -284,10 +284,9 @@
 								"live-preview": false
 							}
 						},
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
@@ -334,10 +333,9 @@
 								"live-preview": false
 							}
 						},
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
