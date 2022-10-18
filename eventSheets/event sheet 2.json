@@ -186,10 +186,6 @@
 						"transform-z-elevation": true,
 						"destroy-with-parent": true
 					}
-				},
-				{
-					"type": "comment",
-					"text": "// Play the music at the start of the game"
 				}
 			],
 			"sid": 352109928361312,
@@ -208,6 +204,10 @@
 						}
 					],
 					"actions": [
+						{
+							"type": "comment",
+							"text": "Play the music at the start of the layout if it is not already playing"
+						},
 						{
 							"id": "play",
 							"objectClass": "Audio",
@@ -384,6 +384,21 @@
 					"behaviorType": "Platform",
 					"parameters": {
 						"control": "jump"
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Play jump sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 314054961700657,
+					"parameters": {
+						"audio-file": "Jump",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -614,6 +629,21 @@
 						"transform-z-elevation": true,
 						"destroy-with-parent": false
 					}
+				},
+				{
+					"type": "comment",
+					"text": "Play attack sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 478442465214556,
+					"parameters": {
+						"audio-file": "PlayerAttack2",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 856657637452561
@@ -785,6 +815,21 @@
 					}
 				},
 				{
+					"type": "comment",
+					"text": "Play player death sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 807340920419520,
+					"parameters": {
+						"audio-file": "PlayerDeath",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 435447335772981,
@@ -862,6 +907,21 @@
 						"layer": "0",
 						"image-point": "0",
 						"create-hierarchy": false
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Play player death sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 258100533584515,
+					"parameters": {
+						"audio-file": "PlayerDeath",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
 					}
 				},
 				{
@@ -958,6 +1018,21 @@
 					}
 				},
 				{
+					"type": "comment",
+					"text": "Play player hurt sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 873471130375515,
+					"parameters": {
+						"audio-file": "PlayerHurt",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "set-boolean-instvar",
 					"objectClass": "player_box",
 					"sid": 174997689374788,
@@ -1011,6 +1086,21 @@
 					"parameters": {
 						"variable": "Score",
 						"value": "1"
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Play coin sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 350328062770142,
+					"parameters": {
+						"audio-file": "Coin",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -1221,6 +1311,21 @@
 					"parameters": {
 						"width": "Self.Width * (enemy.Health/enemy.Max_Health)"
 					}
+				},
+				{
+					"type": "comment",
+					"text": "Play enemy hurt sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 626682620584775,
+					"parameters": {
+						"audio-file": "EnemyHurt",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 223368640252977
@@ -1254,6 +1359,21 @@
 						"layer": "0",
 						"image-point": "0",
 						"create-hierarchy": false
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Play enemy death sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 136561179169634,
+					"parameters": {
+						"audio-file": "EnemyDeath",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
 					}
 				}
 			],

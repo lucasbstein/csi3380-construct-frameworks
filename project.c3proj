@@ -201,7 +201,72 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "PlayerAttack2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 618888322468507,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "PlayerDeath.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 459218701529529,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "PlayerHurt.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 743408631323183,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "EnemyDeath.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 708091944656321,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "EnemyHurt.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 158202160398994,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Jump.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 475148487623143,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "PlayerAttack.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 579829179489363,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Coin.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 336164396097492,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
