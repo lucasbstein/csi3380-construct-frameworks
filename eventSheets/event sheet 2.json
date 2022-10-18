@@ -186,9 +186,43 @@
 						"transform-z-elevation": true,
 						"destroy-with-parent": true
 					}
+				},
+				{
+					"type": "comment",
+					"text": "// Play the music at the start of the game"
 				}
 			],
-			"sid": 352109928361312
+			"sid": 352109928361312,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-tag-playing",
+							"objectClass": "Audio",
+							"sid": 956359003226781,
+							"parameters": {
+								"tag": "\"BGMUSIC\""
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 205986300019595,
+							"parameters": {
+								"audio-file": "BrainBuster1",
+								"loop": "looping",
+								"volume": "-20",
+								"tag-optional": "\"BGMUSIC\""
+							}
+						}
+					],
+					"sid": 915628107602339
+				}
+			]
 		},
 		{
 			"eventType": "block",

@@ -63,6 +63,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r308.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -152,7 +160,8 @@
 			"Tilemap_Ground",
 			"txtChargeJump",
 			"player_jump_charge_bar",
-			"txtbox_sprite"
+			"txtbox_sprite",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -196,7 +205,16 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "BrainBuster1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 987659935803261,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
