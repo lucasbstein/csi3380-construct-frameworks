@@ -1,9 +1,16 @@
 {
-	"name": "button_nextLevel1",
+	"name": "button_nextLevel",
 	"plugin-id": "Sprite",
 	"sid": 362105881918255,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "LayoutDestination",
+			"type": "string",
+			"desc": "",
+			"sid": 174751026619359
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {

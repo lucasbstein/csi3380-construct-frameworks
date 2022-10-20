@@ -155,7 +155,7 @@
 			"EdgeMarker",
 			"collisionDeath",
 			"coin",
-			"button_nextLevel1",
+			"button_nextLevel",
 			"sword_attack_hitbox",
 			"player_sprite",
 			"txtControls",
@@ -181,16 +181,7 @@
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [
-		{
-			"members": [
-				"enemy",
-				"enemy_health_gone",
-				"enemy_health_remaining"
-			],
-			"selectMode": "normal"
-		}
-	],
+	"containers": [],
 	"families": {
 		"items": [],
 		"subfolders": []

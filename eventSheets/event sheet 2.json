@@ -111,6 +111,7 @@
 					"id": "set-position-to-another-object",
 					"objectClass": "enemy_health_remaining",
 					"sid": 986911205855921,
+					"disabled": true,
 					"parameters": {
 						"object": "enemy",
 						"image-point-optional": "1"
@@ -120,6 +121,7 @@
 					"id": "set-position-to-another-object",
 					"objectClass": "enemy_health_gone",
 					"sid": 396442900326117,
+					"disabled": true,
 					"parameters": {
 						"object": "enemy",
 						"image-point-optional": "1"
@@ -155,6 +157,7 @@
 					"id": "set-width",
 					"objectClass": "enemy_health_remaining",
 					"sid": 972940302857394,
+					"disabled": true,
 					"parameters": {
 						"width": "Self.Width * (enemy.Health/enemy.Max_Health)"
 					}
@@ -234,47 +237,21 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "button_nextLevel1"
+						"object-clicked": "button_nextLevel"
 					}
 				}
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 184100493447800,
+					"sid": 156704510973559,
 					"parameters": {
-						"layout": "Test World"
+						"layout": "button_nextLevel.LayoutDestination"
 					}
 				}
 			],
 			"sid": 930702928267106
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 898286351493206,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "button_nextLevel2"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 524842653124402,
-					"parameters": {
-						"layout": "Rami Test Level"
-					}
-				}
-			],
-			"sid": 376263450275234
 		},
 		{
 			"eventType": "comment",
@@ -425,6 +402,14 @@
 					"sid": 624069849900407,
 					"parameters": {
 						"key": 38
+					}
+				},
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 789801445445279,
+					"parameters": {
+						"key": 32
 					}
 				}
 			],
@@ -1269,18 +1254,35 @@
 					}
 				},
 				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 859861470890625
+				},
+				{
 					"id": "subtract-from-instvar",
 					"objectClass": "enemy",
-					"sid": 818363533149983,
+					"sid": 495612686145179,
 					"parameters": {
 						"instance-variable": "Health",
 						"value": "1"
 					}
 				},
 				{
+					"id": "spawn-another-object",
+					"objectClass": "enemy",
+					"sid": 409336653289368,
+					"parameters": {
+						"object": "particleRespawn",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
 					"id": "set-width",
 					"objectClass": "enemy_health_remaining",
 					"sid": 757731886510068,
+					"disabled": true,
 					"parameters": {
 						"width": "Self.Width * (enemy.Health/enemy.Max_Health)"
 					}
@@ -1293,45 +1295,12 @@
 					"id": "play",
 					"objectClass": "Audio",
 					"sid": 626682620584775,
+					"disabled": true,
 					"parameters": {
 						"audio-file": "EnemyHurt",
 						"loop": "not-looping",
 						"volume": "-20",
 						"tag-optional": "\"\""
-					}
-				}
-			],
-			"sid": 223368640252977
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-instance-variable",
-					"objectClass": "enemy",
-					"sid": 872859577029839,
-					"parameters": {
-						"instance-variable": "Health",
-						"comparison": 3,
-						"value": "0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "enemy",
-					"sid": 750149160193766
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "enemy",
-					"sid": 961203903083257,
-					"parameters": {
-						"object": "particleRespawn",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
 					}
 				},
 				{
@@ -1341,7 +1310,7 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 136561179169634,
+					"sid": 530596342854340,
 					"parameters": {
 						"audio-file": "EnemyDeath",
 						"loop": "not-looping",
@@ -1350,7 +1319,7 @@
 					}
 				}
 			],
-			"sid": 935883213794642
+			"sid": 223368640252977
 		}
 	],
 	"sid": 610213650637954
