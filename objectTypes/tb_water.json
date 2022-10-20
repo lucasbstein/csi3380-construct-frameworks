@@ -1,0 +1,25 @@
+{
+	"name": "TB_water",
+	"plugin-id": "TiledBg",
+	"sid": 706700696418042,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "water",
+			"name": "Water"
+		}
+	],
+	"image": {
+		"width": 16,
+		"height": 16,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7090826,
+		"useCollisionPoly": true
+	}
+}

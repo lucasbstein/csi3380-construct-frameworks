@@ -1,5 +1,5 @@
 {
-	"name": "Win Screen",
+	"name": "Win Screen2",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -28,7 +28,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 57,
+					"uid": 174,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -49,7 +49,7 @@
 					}
 				},
 				{
-					"type": "button_nextLevel1",
+					"type": "button_nextLevel2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -57,11 +57,11 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 58,
+					"uid": 175,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 432,
+						"x": 424,
 						"y": 304,
 						"width": 32,
 						"height": 16,
@@ -99,11 +99,11 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 59,
+					"uid": 176,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 432,
+						"x": 424,
 						"y": 304,
 						"width": 72,
 						"height": 8,
@@ -120,7 +120,7 @@
 					}
 				}
 			],
-			"sid": 477028333124585,
+			"sid": 512262893052686,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -149,7 +149,7 @@
 			"global": false
 		}
 	],
-	"sid": 529198950267821,
+	"sid": 220887870026557,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 854,

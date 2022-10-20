@@ -1,7 +1,7 @@
 {
-	"name": "collisionDeath",
+	"name": "button_nextLevel2",
 	"plugin-id": "Sprite",
-	"sid": 919616944518286,
+	"sid": 713666958529685,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,25 +11,37 @@
 			{
 				"frames": [
 					{
-						"width": 16,
+						"width": 32,
 						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 811474,
+						"imageSpriteId": 927103,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 32,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3163194,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 848261601026590,
+				"sid": 911475002092885,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 0
 			}
 		],
 		"subfolders": []

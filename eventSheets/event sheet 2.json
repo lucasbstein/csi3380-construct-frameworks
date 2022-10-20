@@ -234,7 +234,7 @@
 					"parameters": {
 						"mouse-button": "left",
 						"click-type": "clicked",
-						"object-clicked": "button_nextLevel"
+						"object-clicked": "button_nextLevel1"
 					}
 				}
 			],
@@ -249,6 +249,32 @@
 				}
 			],
 			"sid": 930702928267106
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 898286351493206,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "button_nextLevel2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 524842653124402,
+					"parameters": {
+						"layout": "Rami Test Level"
+					}
+				}
+			],
+			"sid": 376263450275234
 		},
 		{
 			"eventType": "comment",
