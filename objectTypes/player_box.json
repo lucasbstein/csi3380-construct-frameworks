@@ -23,13 +23,13 @@
 			"sid": 717747167885172
 		},
 		{
-			"name": "Charge_Jump",
+			"name": "CanChargeJump",
 			"type": "boolean",
 			"desc": "",
 			"sid": 223855611191163
 		},
 		{
-			"name": "Double_Jump",
+			"name": "CanDoubleJump",
 			"type": "boolean",
 			"desc": "",
 			"sid": 206620214617745
@@ -67,6 +67,11 @@
 								"name": "Attack",
 								"x": 0.7142857142857143,
 								"y": 0.38095238095238093
+							},
+							{
+								"name": "JumpChargeArea",
+								"x": 0.5,
+								"y": 1
 							}
 						],
 						"duration": 1

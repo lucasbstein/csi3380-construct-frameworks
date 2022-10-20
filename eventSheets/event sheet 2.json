@@ -264,6 +264,14 @@
 					"parameters": {
 						"key": 65
 					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 475834639494162,
+					"parameters": {
+						"key": 37
+					}
 				}
 			],
 			"actions": [
@@ -303,7 +311,8 @@
 					}
 				}
 			],
-			"sid": 692772070574683
+			"sid": 692772070574683,
+			"isOrBlock": true
 		},
 		{
 			"eventType": "block",
@@ -314,6 +323,14 @@
 					"sid": 134039991060081,
 					"parameters": {
 						"key": 68
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 732385550996653,
+					"parameters": {
+						"key": 39
 					}
 				}
 			],
@@ -354,7 +371,8 @@
 					}
 				}
 			],
-			"sid": 815633404372220
+			"sid": 815633404372220,
+			"isOrBlock": true
 		},
 		{
 			"eventType": "block",
@@ -373,6 +391,14 @@
 					"sid": 853334345659964,
 					"parameters": {
 						"key": 75
+					}
+				},
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 624069849900407,
+					"parameters": {
+						"key": 38
 					}
 				}
 			],
@@ -432,6 +458,14 @@
 					"sid": 136149102332127,
 					"behaviorType": "Platform",
 					"isInverted": true
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player_box",
+					"sid": 504275346669977,
+					"parameters": {
+						"instance-variable": "CanChargeJump"
+					}
 				}
 			],
 			"actions": [],
@@ -753,9 +787,9 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "player_box",
-					"sid": 652805504927318,
+					"sid": 191164245870715,
 					"parameters": {
-						"object": "particleRespawn",
+						"object": "particleWin",
 						"layer": "0",
 						"image-point": "0",
 						"create-hierarchy": false
@@ -770,11 +804,11 @@
 					}
 				},
 				{
-					"id": "go-to-layout",
+					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 205414514548385,
+					"sid": 400198002255468,
 					"parameters": {
-						"layout": "Win Screen"
+						"layout": "exit.LayoutDestination"
 					}
 				}
 			],
@@ -789,6 +823,16 @@
 					"sid": 433506136415704,
 					"parameters": {
 						"object": "collisionDeath"
+					}
+				},
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "player_box",
+					"sid": 805226013831032,
+					"parameters": {
+						"instance-variable": "Health",
+						"comparison": 3,
+						"value": "0"
 					}
 				}
 			],
@@ -838,12 +882,9 @@
 					}
 				},
 				{
-					"id": "go-to-layout",
+					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 738423301609564,
-					"parameters": {
-						"layout": "Test World"
-					}
+					"sid": 988170755698539
 				},
 				{
 					"id": "spawn-another-object",
@@ -872,100 +913,6 @@
 			],
 			"sid": 146492566112021,
 			"isOrBlock": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-instance-variable",
-					"objectClass": "player_box",
-					"sid": 968818036313451,
-					"parameters": {
-						"instance-variable": "Health",
-						"comparison": 0,
-						"value": "0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "player_box",
-					"sid": 196845864616140
-				},
-				{
-					"id": "destroy",
-					"objectClass": "player_sprite",
-					"sid": 270115044994792
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "player_box",
-					"sid": 986298210712506,
-					"parameters": {
-						"object": "particleRespawn",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				},
-				{
-					"type": "comment",
-					"text": "Play player death sound effect"
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 258100533584515,
-					"parameters": {
-						"audio-file": "PlayerDeath",
-						"loop": "not-looping",
-						"volume": "-20",
-						"tag-optional": "\"\""
-					}
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 357557309572733,
-					"parameters": {
-						"seconds": "1.0"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 391449017068835,
-					"parameters": {
-						"layout": "Test World"
-					}
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "spawnPoint",
-					"sid": 866329101113436,
-					"disabled": true,
-					"parameters": {
-						"object": "player_box",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "spawnPoint",
-					"sid": 319469796244471,
-					"disabled": true,
-					"parameters": {
-						"object": "player_sprite",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				}
-			],
-			"sid": 429667504654739
 		},
 		{
 			"eventType": "block",

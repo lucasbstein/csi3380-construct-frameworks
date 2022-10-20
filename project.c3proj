@@ -161,7 +161,9 @@
 			"txtChargeJump",
 			"player_jump_charge_bar",
 			"txtbox_sprite",
-			"Audio"
+			"Audio",
+			"particleSuperJump",
+			"particleWin"
 		],
 		"subfolders": []
 	},
@@ -184,7 +186,9 @@
 		"items": [
 			"Layout 1",
 			"Test World",
-			"Win Screen"
+			"Win Screen",
+			"Level 420",
+			"Storage"
 		],
 		"subfolders": []
 	},
