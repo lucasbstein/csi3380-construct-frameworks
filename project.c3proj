@@ -174,7 +174,9 @@
 			"particleWin",
 			"TB_water",
 			"button_nextLevel2",
-			"Next"
+			"Next",
+			"RamiLevelTileMap",
+			"TestWorldTileMap"
 		],
 		"subfolders": []
 	},
