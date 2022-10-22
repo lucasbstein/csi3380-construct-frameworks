@@ -189,6 +189,21 @@
 						"transform-z-elevation": true,
 						"destroy-with-parent": true
 					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "player_box",
+					"sid": 518486828001983,
+					"parameters": {
+						"child": "camera_sprite",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": false
+					}
 				}
 			],
 			"sid": 352109928361312,
@@ -778,9 +793,9 @@
 				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "player_box",
-					"sid": 999191876191696,
+					"sid": 492802477552760,
 					"parameters": {
-						"object": "exit"
+						"object": "exit_door_sprite"
 					}
 				}
 			],
@@ -817,9 +832,9 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 400198002255468,
+					"sid": 917477309300648,
 					"parameters": {
-						"layout": "exit.LayoutDestination"
+						"layout": "exit_door_sprite.LayoutDestination"
 					}
 				}
 			],
@@ -1195,10 +1210,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "enemy",
-					"sid": 190724785243809,
-					"disabled": true,
+					"sid": 758163002772723,
 					"parameters": {
-						"state": "mirrored"
+						"state": "not-mirrored"
 					}
 				}
 			],
@@ -1231,10 +1245,9 @@
 				{
 					"id": "set-mirrored",
 					"objectClass": "enemy",
-					"sid": 652793362067630,
-					"disabled": true,
+					"sid": 393140196400457,
 					"parameters": {
-						"state": "not-mirrored"
+						"state": "mirrored"
 					}
 				}
 			],
@@ -1263,12 +1276,30 @@
 					}
 				},
 				{
+					"id": "set-max-speed",
+					"objectClass": "enemy",
+					"sid": 367057611160992,
+					"behaviorType": "Platform",
+					"parameters": {
+						"max-speed": "0"
+					}
+				},
+				{
 					"id": "set-animation",
 					"objectClass": "enemy",
 					"sid": 490892661330131,
 					"parameters": {
 						"animation": "\"death\"",
 						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "enemy",
+					"sid": 303977427474975,
+					"parameters": {
+						"instance-variable": "State",
+						"value": "\"\""
 					}
 				},
 				{

@@ -1,0 +1,27 @@
+{
+	"name": "exit_door_sprite",
+	"plugin-id": "TiledBg",
+	"sid": 795688366146985,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "LayoutDestination",
+			"type": "string",
+			"desc": "",
+			"sid": 334684437868559
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 16,
+		"height": 16,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4622125,
+		"useCollisionPoly": true
+	}
+}

@@ -150,7 +150,6 @@
 			"particleRespawn",
 			"movingPlatform",
 			"Mouse",
-			"exit",
 			"enemy",
 			"EdgeMarker",
 			"collisionDeath",
@@ -176,7 +175,9 @@
 			"button_nextLevel2",
 			"Next",
 			"RamiLevelTileMap",
-			"TestWorldTileMap"
+			"TestWorldTileMap",
+			"camera_sprite",
+			"exit_door_sprite"
 		],
 		"subfolders": []
 	},
@@ -429,7 +430,7 @@
 		"cordovaAndroidScheme": "https",
 		"autoReloadScriptsOnPreview": false
 	},
-	"viewportWidth": 854,
-	"viewportHeight": 480,
+	"viewportWidth": 569,
+	"viewportHeight": 320,
 	"firstLayout": null
 }

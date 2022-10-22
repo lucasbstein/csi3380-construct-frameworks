@@ -1,36 +1,47 @@
 {
-	"name": "exit",
+	"name": "camera_sprite",
 	"plugin-id": "Sprite",
-	"sid": 754199293531518,
+	"sid": 283862679236016,
 	"isGlobal": false,
-	"instanceVariables": [
+	"instanceVariables": [],
+	"behaviorTypes": [
 		{
-			"name": "LayoutDestination",
-			"type": "string",
-			"desc": "",
-			"sid": 924822326087246
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 708304549901942
 		}
 	],
-	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 16,
-						"height": 16,
+						"width": 32,
+						"height": 32,
 						"originX": 0.5,
-						"originY": 1,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7593047,
+						"imageSpriteId": 1319749,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.25,
+								0,
+								0.25,
+								0.25,
+								0,
+								0.25
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 867408464431354,
+				"sid": 586722731173555,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

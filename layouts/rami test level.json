@@ -36,7 +36,7 @@
 							"height": 60,
 							"max-width": 107,
 							"max-height": 64,
-							"data": "6x0,4,16x13,8,25x13,22,20x0,5,5x0,14,10x0,23,2x0,14,22x0,23,20x0,5,5x0,14,7x0,3x15,24,2x0,14,22x0,23,20x0,5,5x0,14,4x0,14,8x0,14,6x0,7,15x0,23,20x0,5,5x0,14,4x0,14,8x0,14,6x0,23,15x0,23,20x0,5,5x0,14,7x0,3x13,22,2x0,14,6x0,23,15x0,23,20x0,5,16x0,23,2x0,14,6x0,23,15x0,23,20x0,5,16x0,23,2x0,14,6x0,23,7x0,25,7x0,23,20x0,6,8x15,16,7x15,24,2x0,14,6x0,8,8x13,22,6x0,23,29x0,5,10x0,14,15x0,45,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,8,29x0,5,26x0,41,36x0,5,26x0,41,36x0,5,26x0,41,36x0,35,26x40,46,824x0,19x2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,19x2,893x0,42,2x64,73,318x0,42,73,314x0,42,4x64,73,315x0,42,3x64,73,119x0,36,63x0,36,63x0,36,63x0,36,7x64,73,55x0,36,63x0,36,63x0,36,63x0,36,63x0,8x36,56x0,36,6x58,36,51x0,3x36,2x0,36,6x58,36,50x0,36,2x58,36,2x37,36,6x58,36,49x0,36,3x58,36,2x37,36,6x58,36,48x0,36,4x58,4x36,6x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x59,36,10x0"
+							"data": "6x0,4,16x13,8,25x13,22,20x0,5,5x0,14,10x0,23,2x0,14,22x0,23,20x0,5,5x0,14,7x0,3x15,24,2x0,14,22x0,23,20x0,5,5x0,14,4x0,14,8x0,14,6x0,7,15x0,23,20x0,5,5x0,14,4x0,14,8x0,14,6x0,23,15x0,23,20x0,5,5x0,14,7x0,3x13,22,2x0,14,6x0,23,15x0,23,20x0,5,16x0,23,2x0,14,6x0,23,15x0,23,20x0,5,16x0,23,2x0,14,6x0,23,7x0,25,7x0,23,20x0,6,8x15,16,7x15,24,2x0,14,6x0,8,8x13,22,6x0,23,29x0,5,10x0,14,15x0,45,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,10x0,14,15x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,23,29x0,5,26x0,41,6x0,8,29x0,5,26x0,41,36x0,5,26x0,41,36x0,5,26x0,41,36x0,35,26x40,46,824x0,19x2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,2,17x71,2,45x0,19x2,893x0,42,2x64,73,318x0,42,73,314x0,42,4x64,73,315x0,42,3x64,73,119x0,36,63x0,36,63x0,36,63x0,36,7x64,73,55x0,36,63x0,36,63x0,36,63x0,36,63x0,8x36,56x0,36,6x58,36,51x0,3x36,2x0,36,6x58,36,50x0,36,2x58,36,2x0,36,6x58,36,49x0,36,3x58,36,2x0,36,6x58,36,48x0,36,4x58,4x36,6x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x58,36,47x0,36,15x59,36,10x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -58,7 +58,7 @@
 							1,
 							1
 						],
-						"zElevation": -1
+						"zElevation": 0
 					}
 				},
 				{
@@ -240,37 +240,6 @@
 					}
 				},
 				{
-					"type": "exit",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 95,
-					"instanceVariables": {
-						"LayoutDestination": "Win Screen"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 1504,
-						"y": 736,
-						"width": 32,
-						"height": 80,
-						"originX": 0.5,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "txtControls",
 					"properties": {
 						"text": "Controls:\nJ key to attack\nA and D key to move left and right\nW or K key to jump\n  Press again in air to double jump\nHold S Key without moving to charge\n  and then press W/K key to super jump",
@@ -343,16 +312,11 @@
 								"default-controls": true,
 								"enabled": true
 							}
-						},
-						"ScrollTo": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
 						"x": 32,
-						"y": 176,
+						"y": 192,
 						"width": 7,
 						"height": 21,
 						"originX": 0.5,
@@ -551,7 +515,7 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 75,
-								"acceleration": 100,
+								"acceleration": 1000,
 								"deceleration": 1000,
 								"jump-strength": 650,
 								"gravity": 1500,
@@ -569,10 +533,10 @@
 					"world": {
 						"x": 176,
 						"y": 784,
-						"width": 16,
+						"width": 14.933333333333334,
 						"height": 16,
-						"originX": 0.4666666666666667,
-						"originY": 0.6363636363636364,
+						"originX": 0.5357142857142857,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -660,7 +624,7 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 75,
-								"acceleration": 100,
+								"acceleration": 1000,
 								"deceleration": 1000,
 								"jump-strength": 650,
 								"gravity": 1500,
@@ -678,10 +642,10 @@
 					"world": {
 						"x": 272,
 						"y": 784,
-						"width": 16,
+						"width": 14.933333333333334,
 						"height": 16,
-						"originX": 0.4666666666666667,
-						"originY": 0.6363636363636364,
+						"originX": 0.5357142857142857,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -711,7 +675,7 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 75,
-								"acceleration": 100,
+								"acceleration": 1000,
 								"deceleration": 1000,
 								"jump-strength": 650,
 								"gravity": 1500,
@@ -729,10 +693,10 @@
 					"world": {
 						"x": 80,
 						"y": 784,
-						"width": 16,
+						"width": 14.933333333333334,
 						"height": 16,
-						"originX": 0.4666666666666667,
-						"originY": 0.6363636363636364,
+						"originX": 0.5357142857142857,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -958,7 +922,7 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 75,
-								"acceleration": 100,
+								"acceleration": 1000,
 								"deceleration": 1000,
 								"jump-strength": 650,
 								"gravity": 1500,
@@ -976,10 +940,10 @@
 					"world": {
 						"x": 768,
 						"y": 560,
-						"width": 16,
+						"width": 14.933333333333334,
 						"height": 16,
-						"originX": 0.4666666666666667,
-						"originY": 0.6363636363636364,
+						"originX": 0.5357142857142857,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -1003,7 +967,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 848,
+						"x": 832,
 						"y": 560,
 						"width": 16,
 						"height": 16,
@@ -1032,7 +996,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 592,
+						"x": 608,
 						"y": 560,
 						"width": 16,
 						"height": 16,
@@ -1061,7 +1025,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1312,
+						"x": 1328,
 						"y": 736,
 						"width": 16,
 						"height": 16,
@@ -1090,7 +1054,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1488,
+						"x": 1456,
 						"y": 736,
 						"width": 16,
 						"height": 16,
@@ -1125,7 +1089,7 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 75,
-								"acceleration": 100,
+								"acceleration": 1000,
 								"deceleration": 1000,
 								"jump-strength": 650,
 								"gravity": 1500,
@@ -1143,10 +1107,10 @@
 					"world": {
 						"x": 1360,
 						"y": 736,
-						"width": 16,
+						"width": 14.933333333333334,
 						"height": 16,
-						"originX": 0.4666666666666667,
-						"originY": 0.6363636363636364,
+						"originX": 0.5357142857142857,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -1176,7 +1140,7 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 75,
-								"acceleration": 100,
+								"acceleration": 1000,
 								"deceleration": 1000,
 								"jump-strength": 650,
 								"gravity": 1500,
@@ -1192,12 +1156,12 @@
 						}
 					},
 					"world": {
-						"x": 1440,
+						"x": 1392,
 						"y": 736,
-						"width": 16,
+						"width": 14.933333333333334,
 						"height": 16,
-						"originX": 0.4666666666666667,
-						"originY": 0.6363636363636364,
+						"originX": 0.5357142857142857,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -1285,7 +1249,7 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 75,
-								"acceleration": 100,
+								"acceleration": 1000,
 								"deceleration": 1000,
 								"jump-strength": 650,
 								"gravity": 1500,
@@ -1303,10 +1267,80 @@
 					"world": {
 						"x": 1216,
 						"y": 784,
-						"width": 16,
+						"width": 14.933333333333334,
 						"height": 16,
-						"originX": 0.4666666666666667,
-						"originY": 0.6363636363636364,
+						"originX": 0.5357142857142857,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "camera_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 100,
+					"instanceVariables": {},
+					"behaviors": {
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 32,
+						"y": 176,
+						"width": 32,
+						"height": 32,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "exit_door_sprite",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 25,
+					"instanceVariables": {
+						"LayoutDestination": "Win Screen"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1504,
+						"y": 704,
+						"width": 32,
+						"height": 32,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -1360,15 +1394,15 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 102,
+					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 124,
-						"y": 64,
-						"width": 120,
-						"height": 16,
-						"originX": 0.5,
+						"x": 51,
+						"y": 43,
+						"width": 80,
+						"height": 8,
+						"originX": 0,
 						"originY": 1,
 						"color": [
 							1,
@@ -1386,7 +1420,7 @@
 						"text": "0",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 12,
+						"size": 7,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -1402,14 +1436,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 103,
+					"uid": 65,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 16,
 						"y": 16,
-						"width": 200,
-						"height": 30,
+						"width": 64,
+						"height": 16,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1431,16 +1465,16 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 104,
+					"uid": 102,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 64,
-						"y": 56,
-						"width": 120,
-						"height": 16,
+						"x": 51,
+						"y": 43,
+						"width": 80,
+						"height": 8,
 						"originX": 0,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -1457,7 +1491,7 @@
 						"text": "Health:",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 10,
+						"size": 7,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -1473,14 +1507,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 105,
+					"uid": 103,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 16,
-						"y": 48,
-						"width": 56,
-						"height": 32,
+						"y": 32,
+						"width": 32,
+						"height": 16,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1499,7 +1533,7 @@
 						"text": "Jump Charge:",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 10,
+						"size": 7,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -1515,14 +1549,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 106,
+					"uid": 104,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 16,
-						"y": 80,
-						"width": 112,
-						"height": 48,
+						"y": 48,
+						"width": 96,
+						"height": 24,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1544,16 +1578,16 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 109,
+					"uid": 105,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 128,
-						"y": 88,
-						"width": 16,
-						"height": 16,
+						"x": 91,
+						"y": 59,
+						"width": 8,
+						"height": 8,
 						"originX": 0,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
