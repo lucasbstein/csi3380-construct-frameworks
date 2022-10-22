@@ -536,7 +536,7 @@
 					"type": "enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "moving",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -569,10 +569,10 @@
 					"world": {
 						"x": 176,
 						"y": 784,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 1,
+						"width": 15,
+						"height": 11,
+						"originX": 0.4666666666666667,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,
@@ -645,7 +645,7 @@
 					"type": "enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "moving",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -678,10 +678,10 @@
 					"world": {
 						"x": 272,
 						"y": 784,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 1,
+						"width": 15,
+						"height": 11,
+						"originX": 0.4666666666666667,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,
@@ -696,7 +696,7 @@
 					"type": "enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "moving",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -729,10 +729,10 @@
 					"world": {
 						"x": 80,
 						"y": 784,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 1,
+						"width": 15,
+						"height": 11,
+						"originX": 0.4666666666666667,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,
@@ -943,7 +943,7 @@
 					"type": "enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "moving",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -976,10 +976,10 @@
 					"world": {
 						"x": 768,
 						"y": 560,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 1,
+						"width": 15,
+						"height": 11,
+						"originX": 0.4666666666666667,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,
@@ -1110,7 +1110,7 @@
 					"type": "enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "moving",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1143,10 +1143,10 @@
 					"world": {
 						"x": 1360,
 						"y": 736,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 1,
+						"width": 15,
+						"height": 11,
+						"originX": 0.4666666666666667,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,
@@ -1161,7 +1161,7 @@
 					"type": "enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "moving",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1194,10 +1194,10 @@
 					"world": {
 						"x": 1440,
 						"y": 736,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 1,
+						"width": 15,
+						"height": 11,
+						"originX": 0.4666666666666667,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,
@@ -1270,7 +1270,7 @@
 					"type": "enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Default",
+						"initial-animation": "moving",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -1303,10 +1303,10 @@
 					"world": {
 						"x": 1216,
 						"y": 784,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 1,
+						"width": 15,
+						"height": 11,
+						"originX": 0.4666666666666667,
+						"originY": 0.6363636363636364,
 						"color": [
 							1,
 							1,
@@ -1329,9 +1329,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				0.19215686274509805,
+				0.12156862745098039,
+				0.21568627450980393,
 				1
 			],
 			"isTransparent": false,

@@ -1254,9 +1254,13 @@
 					}
 				},
 				{
-					"id": "destroy",
+					"id": "set-animation",
 					"objectClass": "enemy",
-					"sid": 859861470890625
+					"sid": 490892661330131,
+					"parameters": {
+						"animation": "\"death\"",
+						"from": "beginning"
+					}
 				},
 				{
 					"id": "subtract-from-instvar",
@@ -1265,17 +1269,6 @@
 					"parameters": {
 						"instance-variable": "Health",
 						"value": "1"
-					}
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "enemy",
-					"sid": 409336653289368,
-					"parameters": {
-						"object": "particleRespawn",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
 					}
 				},
 				{
@@ -1320,6 +1313,38 @@
 				}
 			],
 			"sid": 223368640252977
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "enemy",
+					"sid": 333539409683049,
+					"parameters": {
+						"animation": "\"death\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 706781484688712
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "enemy",
+					"sid": 117277091023889,
+					"parameters": {
+						"object": "particleRespawn",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 277746123743907
 		}
 	],
 	"sid": 610213650637954
