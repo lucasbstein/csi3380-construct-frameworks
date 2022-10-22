@@ -617,6 +617,57 @@
 		},
 		{
 			"eventType": "comment",
+			"text": "If CanDoubleJump is true then player can double jump, otherwise, double jump is disabled"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "player_box",
+					"sid": 915033993490904,
+					"parameters": {
+						"instance-variable": "CanDoubleJump"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-double-jump",
+					"objectClass": "player_box",
+					"sid": 671483542168887,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 296465054165426
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 688822149322347
+				}
+			],
+			"actions": [
+				{
+					"id": "set-double-jump",
+					"objectClass": "player_box",
+					"sid": 167241947573824,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				}
+			],
+			"sid": 353951868504393
+		},
+		{
+			"eventType": "comment",
 			"text": "Perform a sword attack in the direction the player faces"
 		},
 		{
@@ -852,6 +903,14 @@
 					}
 				},
 				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player_box",
+					"sid": 843187223550177,
+					"parameters": {
+						"object": "spike_sprite"
+					}
+				},
+				{
 					"id": "compare-instance-variable",
 					"objectClass": "player_box",
 					"sid": 805226013831032,
@@ -1064,10 +1123,10 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 561887065866165,
+					"sid": 257142498291224,
 					"parameters": {
 						"variable": "Score",
-						"value": "1"
+						"value": "100"
 					}
 				},
 				{
@@ -1087,6 +1146,88 @@
 				}
 			],
 			"sid": 505838402417490
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player_box",
+					"sid": 370506068624781,
+					"parameters": {
+						"object": "pickup_double_jump_sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "player_box",
+					"sid": 808408359160075,
+					"parameters": {
+						"instance-variable": "CanDoubleJump",
+						"value": "true"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "pickup_double_jump_sprite",
+					"sid": 661660213073090
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "pickup_double_jump_sprite",
+					"sid": 967474544947163,
+					"parameters": {
+						"object": "particle_pickup",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 572625138715828
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player_box",
+					"sid": 725935708661922,
+					"parameters": {
+						"object": "pickup_super_jump_sprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "player_box",
+					"sid": 217472548605483,
+					"parameters": {
+						"instance-variable": "CanChargeJump",
+						"value": "true"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "pickup_super_jump_sprite",
+					"sid": 691606548512018
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "pickup_super_jump_sprite",
+					"sid": 976710526867086,
+					"parameters": {
+						"object": "particle_pickup",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 571185515707611
 		},
 		{
 			"eventType": "comment",
@@ -1334,6 +1475,15 @@
 					"id": "destroy",
 					"objectClass": "enemy",
 					"sid": 856537177946512
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 958741207459445,
+					"parameters": {
+						"variable": "Score",
+						"value": "500"
+					}
 				},
 				{
 					"id": "set-width",

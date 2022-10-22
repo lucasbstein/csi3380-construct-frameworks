@@ -1,7 +1,7 @@
 {
 	"name": "TB_acid",
 	"plugin-id": "TiledBg",
-	"sid": 140494548223288,
+	"sid": 505107287317028,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -19,7 +19,7 @@
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 6691682,
+		"imageSpriteId": 5880771,
 		"useCollisionPoly": true
 	}
 }

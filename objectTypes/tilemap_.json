@@ -1,14 +1,14 @@
 {
-	"name": "TestWorldTileMap",
+	"name": "Tilemap_",
 	"plugin-id": "Tilemap",
-	"sid": 810577932685318,
+	"sid": 351901330518349,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 599814387770258
+			"sid": 610562237153505
 		}
 	],
 	"effectTypes": [],
@@ -20,7 +20,7 @@
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 7789622,
+		"imageSpriteId": 1683806,
 		"useCollisionPoly": true
 	},
 	"tile-collision-polys": {}

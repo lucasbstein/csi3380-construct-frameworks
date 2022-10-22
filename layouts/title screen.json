@@ -1,5 +1,5 @@
 {
-	"name": "Win Screen",
+	"name": "Title Screen",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -9,7 +9,7 @@
 				{
 					"type": "txtYouWin",
 					"properties": {
-						"text": "You Win",
+						"text": "Brain Buster",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 25,
@@ -28,7 +28,7 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 57,
+					"uid": 283,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -57,15 +57,15 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 58,
+					"uid": 284,
 					"instanceVariables": {
-						"LayoutDestination": "Title Screen"
+						"LayoutDestination": "Test World"
 					},
 					"behaviors": {},
 					"world": {
 						"x": 288,
-						"y": 184,
-						"width": 64,
+						"y": 168,
+						"width": 32,
 						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -82,7 +82,7 @@
 				{
 					"type": "txtYouWin",
 					"properties": {
-						"text": "Return to Title",
+						"text": "Start",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 5,
@@ -101,12 +101,85 @@
 						"initially-visible": true,
 						"origin": "center"
 					},
-					"uid": 59,
+					"uid": 285,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 288,
-						"y": 184,
+						"y": 168,
+						"width": 48,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "button_nextLevel",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 286,
+					"instanceVariables": {
+						"LayoutDestination": "Tutorial Level"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 288,
+						"y": 208,
+						"width": 32,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "txtYouWin",
+					"properties": {
+						"text": "Tutorial",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 5,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 287,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 288,
+						"y": 208,
 						"width": 48,
 						"height": 8,
 						"originX": 0.5,
@@ -122,7 +195,7 @@
 					}
 				}
 			],
-			"sid": 477028333124585,
+			"sid": 728088851993724,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -151,7 +224,7 @@
 			"global": false
 		}
 	],
-	"sid": 529198950267821,
+	"sid": 896063792685917,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 569,

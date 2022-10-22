@@ -1,16 +1,11 @@
 {
-	"name": "TB_water",
-	"plugin-id": "TiledBg",
-	"sid": 706700696418042,
+	"name": "particle_pickup",
+	"plugin-id": "Particles",
+	"sid": 808649814351589,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [
-		{
-			"effectId": "water",
-			"name": "Water"
-		}
-	],
+	"effectTypes": [],
 	"image": {
 		"width": 16,
 		"height": 16,
@@ -19,7 +14,7 @@
 		"originalSource": "",
 		"exportFormat": "lossless",
 		"exportQuality": 0.8,
-		"imageSpriteId": 7090826,
+		"imageSpriteId": 4454632,
 		"useCollisionPoly": true
 	}
 }
