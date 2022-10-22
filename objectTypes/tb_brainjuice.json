@@ -1,0 +1,25 @@
+{
+	"name": "TB_BrainJuice",
+	"plugin-id": "TiledBg",
+	"sid": 541651326706919,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "water",
+			"name": "Water"
+		}
+	],
+	"image": {
+		"width": 16,
+		"height": 16,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4305319,
+		"useCollisionPoly": true
+	}
+}

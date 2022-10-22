@@ -177,7 +177,9 @@
 			"RamiLevelTileMap",
 			"TestWorldTileMap",
 			"camera_sprite",
-			"exit_door_sprite"
+			"exit_door_sprite",
+			"TB_acid",
+			"TB_BrainJuice"
 		],
 		"subfolders": []
 	},
@@ -196,7 +198,8 @@
 			"Level 420",
 			"Storage",
 			"Layout 2",
-			"Rami Test Level"
+			"Rami Test Level",
+			"Rami Test Level2"
 		],
 		"subfolders": []
 	},
