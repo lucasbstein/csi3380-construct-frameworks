@@ -929,6 +929,15 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "is-animation-playing",
+					"objectClass": "enemy",
+					"sid": 321000920363392,
+					"parameters": {
+						"animation": "\"death\""
+					},
+					"isInverted": true
+				},
+				{
 					"id": "is-overlapping-another-object",
 					"objectClass": "player_box",
 					"sid": 817503614450376,
@@ -1263,6 +1272,14 @@
 					}
 				},
 				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 520524010714134,
+					"parameters": {
+						"seconds": "0.7"
+					}
+				},
+				{
 					"id": "subtract-from-instvar",
 					"objectClass": "enemy",
 					"sid": 495612686145179,
@@ -1270,6 +1287,22 @@
 						"instance-variable": "Health",
 						"value": "1"
 					}
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "enemy",
+					"sid": 964005185850056,
+					"parameters": {
+						"object": "particleRespawn",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 856537177946512
 				},
 				{
 					"id": "set-width",
@@ -1313,38 +1346,6 @@
 				}
 			],
 			"sid": 223368640252977
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-animation-finished",
-					"objectClass": "enemy",
-					"sid": 333539409683049,
-					"parameters": {
-						"animation": "\"death\""
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "enemy",
-					"sid": 706781484688712
-				},
-				{
-					"id": "spawn-another-object",
-					"objectClass": "enemy",
-					"sid": 117277091023889,
-					"parameters": {
-						"object": "particleRespawn",
-						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
-					}
-				}
-			],
-			"sid": 277746123743907
 		}
 	],
 	"sid": 610213650637954
