@@ -1,5 +1,5 @@
 {
-	"name": "Title Screen",
+	"name": "Story",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -7,183 +7,28 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "txtYouWin",
+					"type": "TiledBackground2",
 					"properties": {
-						"text": "Brain Buster",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 25,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "center"
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
 					},
-					"uid": 283,
+					"uid": 141,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 284.5,
-						"y": 120,
-						"width": 200,
-						"height": 36,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "button_nextLevel",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 284,
-					"instanceVariables": {
-						"LayoutDestination": "Story"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 288,
-						"y": 168,
-						"width": 32,
-						"height": 16,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "txtYouWin",
-					"properties": {
-						"text": "Start",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 5,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "center"
-					},
-					"uid": 285,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 288,
-						"y": 168,
-						"width": 48,
-						"height": 8,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "button_nextLevel",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 286,
-					"instanceVariables": {
-						"LayoutDestination": "Tutorial Level"
-					},
-					"behaviors": {},
-					"world": {
-						"x": 288,
-						"y": 208,
-						"width": 32,
-						"height": 16,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "txtYouWin",
-					"properties": {
-						"text": "Tutorial",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 5,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "center"
-					},
-					"uid": 287,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 288,
-						"y": 208,
-						"width": 48,
-						"height": 8,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 0,
+						"y": 0,
+						"width": 569,
+						"height": 320,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -195,7 +40,7 @@
 					}
 				}
 			],
-			"sid": 728088851993724,
+			"sid": 391535356804699,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -206,9 +51,9 @@
 				1
 			],
 			"backgroundColor": [
-				0.3686274509803922,
-				0.3686274509803922,
-				0.3686274509803922,
+				1,
+				1,
+				1,
 				1
 			],
 			"isTransparent": false,
@@ -222,9 +67,158 @@
 			"blendMode": "normal",
 			"zElevation": 0,
 			"global": false
+		},
+		{
+			"name": "Text",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "txtStory",
+					"properties": {
+						"text": "The year is 2222, scientists have been in the pursuit of true artificial intelligence for over two centuries. Their most recent advancement was to artificially recreate the human brain. They succeeded in their project, but the brain they created turned on them, started creating many smaller brains, and is now trying to destroy all humanity. You must stop the brain before it is too late!",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 11,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 191,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 128,
+						"y": 88,
+						"width": 296,
+						"height": 184,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "button_nextLevel",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 200,
+					"instanceVariables": {
+						"LayoutDestination": "Tutorial Level"
+					},
+					"behaviors": {},
+					"world": {
+						"x": 264,
+						"y": 292,
+						"width": 72,
+						"height": 24,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "txtYouWin",
+					"properties": {
+						"text": "Continue",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 5,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "center"
+					},
+					"uid": 201,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 264,
+						"y": 296,
+						"width": 56,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 690698514805055,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
 		}
 	],
-	"sid": 896063792685917,
+	"sid": 413774154841231,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 569,

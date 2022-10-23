@@ -193,7 +193,10 @@
 			"txt_tutorial_controls",
 			"TB_acid",
 			"TestWorldTileMap",
-			"TB_BrainJuice"
+			"TB_BrainJuice",
+			"TiledBackground",
+			"TiledBackground2",
+			"txtStory"
 		],
 		"subfolders": []
 	},
@@ -215,7 +218,8 @@
 			"Layout 2",
 			"Rami Test Level",
 			"Tutorial Level",
-			"Rami Test Level2"
+			"Rami Test Level2",
+			"Story"
 		],
 		"subfolders": []
 	},
