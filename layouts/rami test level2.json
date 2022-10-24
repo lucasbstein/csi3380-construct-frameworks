@@ -255,7 +255,7 @@
 					},
 					"uid": 158,
 					"instanceVariables": {
-						"LayoutDestination": "Rami Test Level3"
+						"LayoutDestination": "Level3"
 					},
 					"behaviors": {},
 					"world": {
@@ -1324,8 +1324,8 @@
 						}
 					},
 					"world": {
-						"x": 8,
-						"y": 816,
+						"x": 0,
+						"y": 808,
 						"width": 1712,
 						"height": 144,
 						"originX": 0,
