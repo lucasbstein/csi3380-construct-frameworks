@@ -217,10 +217,12 @@
 			"Storage",
 			"Layout 2",
 			"Rami Test Level",
-			"Tutorial Level",
 			"Rami Test Level2",
-			"Story",
-			"Rami Test Level3"
+			"Rami Test Level3",
+			"BossRoom1",
+			"BossRoom2",
+			"Tutorial Level",
+			"Story"
 		],
 		"subfolders": []
 	},
