@@ -437,24 +437,77 @@
 					"parameters": {
 						"control": "jump"
 					}
-				},
-				{
-					"type": "comment",
-					"text": "Play jump sound effect"
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 314054961700657,
-					"parameters": {
-						"audio-file": "Jump",
-						"loop": "not-looping",
-						"volume": "-20",
-						"tag-optional": "\"\""
-					}
 				}
 			],
 			"sid": 244205043694491,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 223135717348814,
+							"parameters": {
+								"variable": "ChargeJumpBar",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "comment",
+							"text": "Play jump sound effect"
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 884735196340205,
+							"parameters": {
+								"audio-file": "Jump",
+								"loop": "not-looping",
+								"volume": "-20",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 785287445695504
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 215318122572841,
+							"parameters": {
+								"variable": "ChargeJumpBar",
+								"comparison": 4,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"type": "comment",
+							"text": "Play super jump sound effect"
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 171893569628226,
+							"parameters": {
+								"audio-file": "SuperJump",
+								"loop": "not-looping",
+								"volume": "-20",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 865325872112373
+				}
+			],
 			"isOrBlock": true
 		},
 		{
@@ -873,6 +926,17 @@
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 272136819218767,
+					"parameters": {
+						"audio-file": "LevelComplete",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 109913869023586,
@@ -1184,6 +1248,17 @@
 						"image-point": "0",
 						"create-hierarchy": false
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 851616700654320,
+					"parameters": {
+						"audio-file": "Powerup1",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 572625138715828
@@ -1224,6 +1299,17 @@
 						"layer": "0",
 						"image-point": "0",
 						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 578488409183413,
+					"parameters": {
+						"audio-file": "Powerup2",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
 					}
 				}
 			],
@@ -1444,6 +1530,21 @@
 					}
 				},
 				{
+					"type": "comment",
+					"text": "Play enemy hurt sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 694708694877052,
+					"parameters": {
+						"audio-file": "EnemyHurt2",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "wait",
 					"objectClass": "System",
 					"sid": 520524010714134,
@@ -1492,22 +1593,6 @@
 					"disabled": true,
 					"parameters": {
 						"width": "Self.Width * (enemy.Health/enemy.Max_Health)"
-					}
-				},
-				{
-					"type": "comment",
-					"text": "Play enemy hurt sound effect"
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 626682620584775,
-					"disabled": true,
-					"parameters": {
-						"audio-file": "EnemyHurt",
-						"loop": "not-looping",
-						"volume": "-20",
-						"tag-optional": "\"\""
 					}
 				},
 				{

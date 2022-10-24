@@ -304,6 +304,86 @@
 					"file-info": {
 						"purpose": "none"
 					}
+				},
+				{
+					"name": "PlayerLand.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 609184252712916,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "PlayerStep.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 630891166958718,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Powerup1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 536442590937463,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Powerup2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 645639803769011,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SuperJump.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 444431770745266,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "SwitchActivate.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 234529634982773,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "BossDeath.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 762622983995220,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "BossHurt.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 870209925595130,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "EnemyHurt2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 627070076920025,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "LevelComplete.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 831667558334087,
+					"file-info": {
+						"purpose": "none"
+					}
 				}
 			],
 			"subfolders": []
