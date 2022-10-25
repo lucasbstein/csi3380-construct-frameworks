@@ -7,6 +7,64 @@
 			"subLayers": [],
 			"instances": [
 				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 194,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 320,
+						"width": 568,
+						"height": 320,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "status_container_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 198,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 184,
+						"y": 152,
+						"width": 200,
+						"height": 48,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							0.6
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "txtYouWin",
 					"properties": {
 						"text": "Brain Buster",
@@ -132,7 +190,7 @@
 					},
 					"uid": 286,
 					"instanceVariables": {
-						"LayoutDestination": "Tutorial Level"
+						"LayoutDestination": "Sandbox World"
 					},
 					"behaviors": {},
 					"world": {
@@ -155,7 +213,7 @@
 				{
 					"type": "txtYouWin",
 					"properties": {
-						"text": "Tutorial",
+						"text": "Sandbox",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 5,
@@ -232,6 +290,6 @@
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
-	"projection": "perspective",
+	"projection": "orthographic",
 	"eventSheet": "Event sheet 2"
 }

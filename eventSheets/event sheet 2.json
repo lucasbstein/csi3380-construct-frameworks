@@ -813,6 +813,30 @@
 			"sid": 856657637452561
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 722206481667181,
+					"parameters": {
+						"key": 27
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 640338425573143,
+					"parameters": {
+						"layout": "\"Title Screen\""
+					}
+				}
+			],
+			"sid": 874105691401433
+		},
+		{
 			"eventType": "comment",
 			"text": "\n\n----------------------------------------PLAYER ANIM (BESIDES RUN ANIM) ------------------------------------------------\n\n"
 		},

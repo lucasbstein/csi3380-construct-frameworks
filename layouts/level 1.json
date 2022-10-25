@@ -1,5 +1,5 @@
 {
-	"name": "Tutorial Level",
+	"name": "Level 1",
 	"layers": [
 		{
 			"name": "Game World",
@@ -20,7 +20,7 @@
 						"tile-y-drawing-offset": 0,
 						"drawing-mode": "top-to-right"
 					},
-					"uid": 161,
+					"uid": 174,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -70,7 +70,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 282,
+					"uid": 175,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -99,7 +99,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 280,
+					"uid": 176,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -128,7 +128,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 278,
+					"uid": 202,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -157,7 +157,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 274,
+					"uid": 203,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -186,7 +186,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 272,
+					"uid": 204,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -215,14 +215,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 270,
+					"uid": 205,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 104,
+						"x": 168,
 						"y": 472,
-						"width": 160,
-						"height": 48,
+						"width": 280,
+						"height": 72,
 						"originX": 0,
 						"originY": 1,
 						"color": [
@@ -244,7 +244,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 148,
+					"uid": 206,
 					"instanceVariables": {},
 					"behaviors": {
 						"Flash": {
@@ -277,7 +277,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 199,
+					"uid": 207,
 					"instanceVariables": {
 						"Health": 3,
 						"Max_Health": 3,
@@ -327,7 +327,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 211,
+					"uid": 208,
 					"instanceVariables": {},
 					"behaviors": {
 						"ScrollTo": {
@@ -362,7 +362,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 162,
+					"uid": 209,
 					"instanceVariables": {
 						"State": "",
 						"Health": 1,
@@ -418,7 +418,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 163,
+					"uid": 210,
 					"instanceVariables": {
 						"State": "left",
 						"Health": 1,
@@ -474,7 +474,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 178,
+					"uid": 213,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -503,7 +503,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 179,
+					"uid": 214,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -536,7 +536,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 180,
+					"uid": 215,
 					"instanceVariables": {
 						"LayoutDestination": "Test World"
 					},
@@ -567,7 +567,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 194,
+					"uid": 217,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -596,7 +596,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 184,
+					"uid": 218,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -619,7 +619,7 @@
 				{
 					"type": "txt_tutorial_controls",
 					"properties": {
-						"text": "Run: A and D keys\nOR   ← and → keys",
+						"text": "Welcome to the VR training program! Please proceed onward using A and D keys or arrow keys to run.",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -638,14 +638,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 269,
+					"uid": 219,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 112,
-						"y": 424,
-						"width": 152,
-						"height": 48,
+						"x": 176,
+						"y": 400,
+						"width": 272,
+						"height": 104,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -680,7 +680,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 271,
+					"uid": 220,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -722,7 +722,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 273,
+					"uid": 227,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -751,7 +751,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 275,
+					"uid": 228,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -793,7 +793,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 276,
+					"uid": 229,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -835,7 +835,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 277,
+					"uid": 246,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -877,7 +877,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 279,
+					"uid": 247,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -919,7 +919,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 281,
+					"uid": 248,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -940,7 +940,7 @@
 					}
 				}
 			],
-			"sid": 871063822701715,
+			"sid": 267517340412133,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -982,7 +982,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 198,
+					"uid": 249,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1011,7 +1011,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 221,
+					"uid": 250,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1053,7 +1053,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 222,
+					"uid": 251,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1082,7 +1082,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 223,
+					"uid": 252,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1124,7 +1124,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 224,
+					"uid": 259,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1166,7 +1166,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 225,
+					"uid": 260,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1195,7 +1195,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 226,
+					"uid": 261,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -1216,7 +1216,7 @@
 					}
 				}
 			],
-			"sid": 825223356949344,
+			"sid": 751349204076067,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -1245,7 +1245,7 @@
 			"global": false
 		}
 	],
-	"sid": 766156090330532,
+	"sid": 581091907736025,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3500,

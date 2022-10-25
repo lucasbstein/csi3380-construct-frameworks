@@ -196,7 +196,8 @@
 			"TB_BrainJuice",
 			"TiledBackground",
 			"TiledBackground2",
-			"txtStory"
+			"txtStory",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -211,9 +212,10 @@
 			"Title Screen",
 			"Layout 1",
 			"Win Screen",
-			"Level 420",
 			"Storage",
 			"Layout 2",
+			"Sandbox World",
+			"Level 1",
 			"Test World",
 			"Rami Test Level",
 			"Rami Test Level2",
@@ -221,7 +223,6 @@
 			"bossroom1",
 			"bossroom2",
 			"bossroom3",
-			"Tutorial Level",
 			"Story"
 		],
 		"subfolders": []
