@@ -35,7 +35,7 @@
 			"eventType": "variable",
 			"name": "ChargeJumpStrength",
 			"type": "number",
-			"initialValue": "700",
+			"initialValue": "250",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -135,6 +135,15 @@
 					"parameters": {
 						"object": "enemy",
 						"image-point-optional": "1"
+					}
+				},
+				{
+					"id": "set-jump-strength",
+					"objectClass": "player_box",
+					"sid": 399496729794490,
+					"behaviorType": "Platform",
+					"parameters": {
+						"jump-strength": "450 + 250*(1/ChargeJumpBar)"
 					}
 				}
 			],
