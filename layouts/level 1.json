@@ -282,8 +282,8 @@
 						"Health": 3,
 						"Max_Health": 3,
 						"Invincible": false,
-						"CanChargeJump": false,
-						"CanDoubleJump": false
+						"CanChargeJump": 0,
+						"CanDoubleJump": 0
 					},
 					"behaviors": {
 						"Platform": {

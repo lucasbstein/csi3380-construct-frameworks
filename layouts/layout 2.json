@@ -131,7 +131,7 @@
 					}
 				},
 				{
-					"type": "spawnPoint1",
+					"type": "spawnPoint",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -140,9 +140,7 @@
 						"live-preview": false
 					},
 					"uid": 85,
-					"instanceVariables": {
-						"SpawnNumberStringFormat": 1
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 13.002737045288086,

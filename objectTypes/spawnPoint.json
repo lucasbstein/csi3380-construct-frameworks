@@ -1,7 +1,7 @@
 {
-	"name": "spawnPoint4",
+	"name": "spawnPoint",
 	"plugin-id": "Sprite",
-	"sid": 185473979075308,
+	"sid": 570910759416633,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8101126,
+						"imageSpriteId": 9125931,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 487425888682511,
+				"sid": 808773969889188,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

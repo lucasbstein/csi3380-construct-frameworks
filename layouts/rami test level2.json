@@ -182,7 +182,7 @@
 					}
 				},
 				{
-					"type": "spawnPoint1",
+					"type": "spawnPoint",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -191,9 +191,7 @@
 						"live-preview": false
 					},
 					"uid": 151,
-					"instanceVariables": {
-						"SpawnNumberStringFormat": 1
-					},
+					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 1552,
@@ -226,8 +224,8 @@
 						"Health": 3,
 						"Max_Health": 3,
 						"Invincible": false,
-						"CanChargeJump": false,
-						"CanDoubleJump": false
+						"CanChargeJump": 0,
+						"CanDoubleJump": 0
 					},
 					"behaviors": {
 						"Platform": {

@@ -161,7 +161,7 @@
 			"sprite_start",
 			"txtYouWin",
 			"TB_ground",
-			"spawnPoint1",
+			"spawnPoint",
 			"txtScore",
 			"particleRespawn",
 			"movingPlatform",
@@ -205,11 +205,7 @@
 			"TiledBackground",
 			"TiledBackground2",
 			"txtStory",
-			"Sprite",
-			"spawnPoint2",
-			"spawnPoint3",
-			"spawnPoint4",
-			"spawnPoint5"
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -552,7 +548,7 @@
 		"autoReloadScriptsOnPreview": false,
 		"exportFileStructure": "flat"
 	},
-	"viewportWidth": 592,
+	"viewportWidth": 569,
 	"viewportHeight": 320,
 	"firstLayout": null
 }

@@ -27,14 +27,14 @@
 		},
 		{
 			"name": "CanChargeJump",
-			"type": "boolean",
+			"type": "number",
 			"desc": "",
 			"show": true,
 			"sid": 223855611191163
 		},
 		{
 			"name": "CanDoubleJump",
-			"type": "boolean",
+			"type": "number",
 			"desc": "",
 			"show": true,
 			"sid": 206620214617745

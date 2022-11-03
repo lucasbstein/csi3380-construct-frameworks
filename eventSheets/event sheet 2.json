@@ -79,17 +79,47 @@
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 231967640252272
+			"sid": 891549938945440
 		},
 		{
 			"eventType": "variable",
-			"name": "SpawnPointNumber",
+			"name": "SpawnPointX",
 			"type": "number",
-			"initialValue": "1",
+			"initialValue": "0",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
-			"sid": 747283817874724
+			"sid": 783911505188155
+		},
+		{
+			"eventType": "variable",
+			"name": "SpawnPointY",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 152585213969089
+		},
+		{
+			"eventType": "variable",
+			"name": "RespawnWithDoubleJump",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 198396575881543
+		},
+		{
+			"eventType": "variable",
+			"name": "RespawnWithChargeJump",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 952551286513014
 		},
 		{
 			"eventType": "block",
@@ -108,9 +138,9 @@
 				{
 					"id": "set-text",
 					"objectClass": "txtScore",
-					"sid": 258642916336725,
+					"sid": 425903430464699,
 					"parameters": {
-						"text": "\"Score: \" & score"
+						"text": "\"Score: \" & Score"
 					}
 				},
 				{
@@ -548,11 +578,13 @@
 					"isInverted": true
 				},
 				{
-					"id": "is-boolean-instance-variable-set",
+					"id": "compare-instance-variable",
 					"objectClass": "player_box",
-					"sid": 504275346669977,
+					"sid": 922348385060839,
 					"parameters": {
-						"instance-variable": "CanChargeJump"
+						"instance-variable": "CanChargeJump",
+						"comparison": 0,
+						"value": "1"
 					}
 				}
 			],
@@ -690,11 +722,13 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-boolean-instance-variable-set",
+					"id": "compare-instance-variable",
 					"objectClass": "player_box",
-					"sid": 915033993490904,
+					"sid": 268523189155473,
 					"parameters": {
-						"instance-variable": "CanDoubleJump"
+						"instance-variable": "CanDoubleJump",
+						"comparison": 0,
+						"value": "1"
 					}
 				}
 			],
@@ -1074,35 +1108,163 @@
 				{
 					"id": "restart-layout",
 					"objectClass": "System",
-					"sid": 988170755698539
+					"sid": 988170755698539,
+					"disabled": true
 				},
 				{
-					"id": "spawn-another-object",
-					"objectClass": "spawnPoint1",
-					"sid": 617443586629308,
-					"disabled": true,
+					"callFunction": "RespawnPlayer",
+					"sid": 430298231931379
+				}
+			],
+			"sid": 146492566112021,
+			"isOrBlock": true
+		},
+		{
+			"functionName": "RespawnPlayer",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 291654064433083,
 					"parameters": {
-						"object": "player_box",
+						"object-to-create": "player_box",
 						"layer": "0",
-						"image-point": "0",
-						"create-hierarchy": false
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
 					}
 				},
 				{
 					"id": "spawn-another-object",
-					"objectClass": "spawnPoint1",
-					"sid": 812454590414329,
-					"disabled": true,
+					"objectClass": "player_box",
+					"sid": 369509218720144,
 					"parameters": {
 						"object": "player_sprite",
 						"layer": "0",
 						"image-point": "0",
 						"create-hierarchy": false
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "player_box",
+					"sid": 407796513806832,
+					"parameters": {
+						"x": "SpawnPointX",
+						"y": "SpawnPointY"
+					}
+				},
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "player_sprite",
+					"sid": 538187698108512,
+					"parameters": {
+						"object": "player_box",
+						"image-point-optional": "0"
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "camera_sprite",
+					"sid": 329668411151899,
+					"parameters": {
+						"x": "player_box.X",
+						"y": "player_box.Y - (16*4)"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "player_box",
+					"sid": 910825464335566,
+					"parameters": {
+						"child": "player_sprite",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": true
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "player_box",
+					"sid": 953160346582295,
+					"parameters": {
+						"child": "camera_sprite",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": false
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "player_box",
+					"sid": 881121017830348,
+					"parameters": {
+						"instance-variable": "CanChargeJump",
+						"value": "RespawnWithChargeJump"
+					}
+				},
+				{
+					"id": "set-instvar-value",
+					"objectClass": "player_box",
+					"sid": 879476198015604,
+					"parameters": {
+						"instance-variable": "CanDoubleJump",
+						"value": "RespawnWithDoubleJump"
+					}
 				}
 			],
-			"sid": 146492566112021,
-			"isOrBlock": true
+			"sid": 501222211665924
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "player_box",
+					"sid": 721179596546567,
+					"parameters": {
+						"object": "spawnPoint"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 287679055171441,
+					"parameters": {
+						"variable": "SpawnPointX",
+						"value": "spawnPoint.X"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 568055672375789,
+					"parameters": {
+						"variable": "SpawnPointY",
+						"value": "spawnPoint.Y"
+					}
+				}
+			],
+			"sid": 218643231296344
 		},
 		{
 			"eventType": "block",
@@ -1268,12 +1430,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-boolean-instvar",
+					"id": "set-instvar-value",
 					"objectClass": "player_box",
-					"sid": 808408359160075,
+					"sid": 891639574290239,
 					"parameters": {
 						"instance-variable": "CanDoubleJump",
-						"value": "true"
+						"value": "1"
 					}
 				},
 				{
@@ -1290,6 +1452,15 @@
 						"layer": "0",
 						"image-point": "0",
 						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 714383664049448,
+					"parameters": {
+						"variable": "RespawnWithDoubleJump",
+						"value": "1"
 					}
 				},
 				{
@@ -1321,12 +1492,12 @@
 			],
 			"actions": [
 				{
-					"id": "set-boolean-instvar",
+					"id": "set-instvar-value",
 					"objectClass": "player_box",
-					"sid": 217472548605483,
+					"sid": 459347127177222,
 					"parameters": {
 						"instance-variable": "CanChargeJump",
-						"value": "true"
+						"value": "1"
 					}
 				},
 				{
@@ -1343,6 +1514,15 @@
 						"layer": "0",
 						"image-point": "0",
 						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 430631639206347,
+					"parameters": {
+						"variable": "RespawnWithChargeJump",
+						"value": "1"
 					}
 				},
 				{
