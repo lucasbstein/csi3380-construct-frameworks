@@ -217,6 +217,7 @@
 	},
 	"layouts": {
 		"items": [
+			"Playtest Menu Screen",
 			"Title Screen",
 			"Layout 1",
 			"Win Screen",
@@ -232,7 +233,6 @@
 			"bossroom3",
 			"Story",
 			"Level 1",
-			"Playtest Main Screen",
 			"Playtest Normal Jump",
 			"Playtest Double Jump",
 			"Playtest Super Jump",

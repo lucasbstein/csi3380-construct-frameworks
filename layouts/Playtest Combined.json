@@ -194,7 +194,7 @@
 					},
 					"uid": 1201,
 					"instanceVariables": {
-						"LayoutDestination": "Playtest Main Screen"
+						"LayoutDestination": "Playtest Menu Screen"
 					},
 					"behaviors": {},
 					"world": {

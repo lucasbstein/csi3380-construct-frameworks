@@ -877,9 +877,9 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 640338425573143,
+					"sid": 114982678820370,
 					"parameters": {
-						"layout": "\"Title Screen\""
+						"layout": "\"Playtest Menu Screen\""
 					}
 				}
 			],
