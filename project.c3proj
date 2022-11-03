@@ -238,7 +238,8 @@
 			"Level 1",
 			"Playtest Normal Jump",
 			"Playtest Double Jump",
-			"Playtest Super Jump"
+			"Playtest Super Jump",
+			"Playtest Combined"
 		],
 		"subfolders": []
 	},
@@ -551,7 +552,7 @@
 		"autoReloadScriptsOnPreview": false,
 		"exportFileStructure": "flat"
 	},
-	"viewportWidth": 569,
+	"viewportWidth": 592,
 	"viewportHeight": 320,
 	"firstLayout": null
 }
