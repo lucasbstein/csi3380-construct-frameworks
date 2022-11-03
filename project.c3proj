@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 30802,
+	"savedWithRelease": 31700,
 	"name": "construct-gdchallenge-2-frameworks",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Particles",
 			"name": "Particles",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,15 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
+			"author": "Scirra",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -107,7 +115,7 @@
 			"id": "jumpthru",
 			"name": "Jump-thru",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -115,7 +123,7 @@
 			"id": "destroy",
 			"name": "Destroy outside layout",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -123,7 +131,7 @@
 			"id": "Tween",
 			"name": "Tween",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -131,7 +139,7 @@
 			"id": "Flash",
 			"name": "Flash",
 			"author": "Scirra",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		},
 		{
@@ -139,7 +147,7 @@
 			"id": "water",
 			"name": "Water",
 			"author": "Viktor Korsun",
-			"version": "r308.2",
+			"version": "r317",
 			"bundled": false
 		}
 	],
@@ -153,7 +161,7 @@
 			"sprite_start",
 			"txtYouWin",
 			"TB_ground",
-			"spawnPoint",
+			"spawnPoint1",
 			"txtScore",
 			"particleRespawn",
 			"movingPlatform",
@@ -197,7 +205,11 @@
 			"TiledBackground",
 			"TiledBackground2",
 			"txtStory",
-			"Sprite"
+			"Sprite",
+			"spawnPoint2",
+			"spawnPoint3",
+			"spawnPoint4",
+			"spawnPoint5"
 		],
 		"subfolders": []
 	},
@@ -215,7 +227,6 @@
 			"Storage",
 			"Layout 2",
 			"Sandbox World",
-			"Level 1",
 			"Test World",
 			"Rami Test Level",
 			"Rami Test Level2",
@@ -223,15 +234,17 @@
 			"bossroom1",
 			"bossroom2",
 			"bossroom3",
-			"Story"
+			"Story",
+			"Level 1",
+			"Playtest Normal Jump",
+			"Playtest Double Jump",
+			"Playtest Super Jump"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1",
-			"Event sheet 2",
-			"Event sheet 3"
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
@@ -535,7 +548,8 @@
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",
-		"autoReloadScriptsOnPreview": false
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "flat"
 	},
 	"viewportWidth": 569,
 	"viewportHeight": 320,

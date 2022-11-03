@@ -8,6 +8,7 @@
 			"name": "LayoutDestination",
 			"type": "string",
 			"desc": "",
+			"show": true,
 			"sid": 334684437868559
 		}
 	],

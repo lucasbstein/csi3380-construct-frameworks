@@ -675,7 +675,7 @@
 					}
 				},
 				{
-					"type": "spawnPoint",
+					"type": "spawnPoint1",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -684,7 +684,9 @@
 						"live-preview": false
 					},
 					"uid": 348,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"SpawnNumberStringFormat": 1
+					},
 					"behaviors": {},
 					"world": {
 						"x": 1552,

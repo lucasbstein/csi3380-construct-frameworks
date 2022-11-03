@@ -27,6 +27,28 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
@@ -67,6 +89,28 @@
 								"enabled": true,
 								"tags": ""
 							}
+						},
+						"Sine": {
+							"properties": {
+								"movement": "horizontal",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 50,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"world": {
@@ -87,7 +131,7 @@
 					}
 				},
 				{
-					"type": "spawnPoint",
+					"type": "spawnPoint1",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -96,7 +140,9 @@
 						"live-preview": false
 					},
 					"uid": 85,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"SpawnNumberStringFormat": 1
+					},
 					"behaviors": {},
 					"world": {
 						"x": 13.002737045288086,

@@ -8,30 +8,35 @@
 			"name": "Health",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 262337809126765
 		},
 		{
 			"name": "Max_Health",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 686272848014712
 		},
 		{
 			"name": "Invincible",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 717747167885172
 		},
 		{
 			"name": "CanChargeJump",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 223855611191163
 		},
 		{
 			"name": "CanDoubleJump",
 			"type": "boolean",
 			"desc": "",
+			"show": true,
 			"sid": 206620214617745
 		}
 	],

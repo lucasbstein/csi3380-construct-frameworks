@@ -8,18 +8,21 @@
 			"name": "State",
 			"type": "string",
 			"desc": "",
+			"show": true,
 			"sid": 105474305020303
 		},
 		{
 			"name": "Health",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 119762671694883
 		},
 		{
 			"name": "Max_Health",
 			"type": "number",
 			"desc": "",
+			"show": true,
 			"sid": 190618452589028
 		}
 	],

@@ -1,15 +1,15 @@
 {
-	"name": "button_nextLevel",
+	"name": "spawnPoint1",
 	"plugin-id": "Sprite",
-	"sid": 362105881918255,
+	"sid": 570910759416633,
 	"isGlobal": false,
 	"instanceVariables": [
 		{
-			"name": "LayoutDestination",
-			"type": "string",
+			"name": "SpawnNumberStringFormat",
+			"type": "number",
 			"desc": "",
 			"show": true,
-			"sid": 174751026619359
+			"sid": 380003728521367
 		}
 	],
 	"behaviorTypes": [],
@@ -19,37 +19,25 @@
 			{
 				"frames": [
 					{
-						"width": 32,
-						"height": 16,
+						"width": 8,
+						"height": 8,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2457486,
-						"useCollisionPoly": true,
-						"duration": 1
-					},
-					{
-						"width": 32,
-						"height": 16,
-						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
-						"exportFormat": "lossless",
-						"exportQuality": 0.8,
-						"imageSpriteId": 9096921,
+						"imageSpriteId": 9125931,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 363591003347255,
+				"sid": 808773969889188,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 0
+				"speed": 5
 			}
 		],
 		"subfolders": []
