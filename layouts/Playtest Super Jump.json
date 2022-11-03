@@ -129,7 +129,7 @@
 					},
 					"world": {
 						"x": 104,
-						"y": 3128,
+						"y": 3144,
 						"width": 7,
 						"height": 21,
 						"originX": 0.5,
@@ -164,7 +164,7 @@
 					},
 					"world": {
 						"x": 104,
-						"y": 3064,
+						"y": 3080,
 						"width": 32,
 						"height": 32,
 						"originX": 0.5,
@@ -259,7 +259,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 104,
-						"y": 3088,
+						"y": 3104,
 						"width": 8,
 						"height": 8,
 						"originX": 0.5,
@@ -483,7 +483,7 @@
 					}
 				},
 				{
-					"type": "pickup_double_jump_sprite",
+					"type": "pickup_super_jump_sprite",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -491,11 +491,11 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 721,
+					"uid": 760,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 152,
+						"x": 160,
 						"y": 3128,
 						"width": 8,
 						"height": 8,
