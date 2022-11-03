@@ -3,6 +3,26 @@
 	"events": [
 		{
 			"eventType": "variable",
+			"name": "CurrentJumpStrength",
+			"type": "number",
+			"initialValue": "450",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 838251800252201
+		},
+		{
+			"eventType": "variable",
+			"name": "DefaultJumpStrength",
+			"type": "number",
+			"initialValue": "450",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 940393829599763
+		},
+		{
+			"eventType": "variable",
 			"name": "Score",
 			"type": "number",
 			"initialValue": "0",
@@ -111,39 +131,6 @@
 					"sid": 348035798600544,
 					"parameters": {
 						"width": "ChargeJumpBar"
-					}
-				},
-				{
-					"type": "comment",
-					"text": "Set the enemy health bars in correct positions"
-				},
-				{
-					"id": "set-position-to-another-object",
-					"objectClass": "enemy_health_remaining",
-					"sid": 986911205855921,
-					"disabled": true,
-					"parameters": {
-						"object": "enemy",
-						"image-point-optional": "1"
-					}
-				},
-				{
-					"id": "set-position-to-another-object",
-					"objectClass": "enemy_health_gone",
-					"sid": 396442900326117,
-					"disabled": true,
-					"parameters": {
-						"object": "enemy",
-						"image-point-optional": "1"
-					}
-				},
-				{
-					"id": "set-jump-strength",
-					"objectClass": "player_box",
-					"sid": 399496729794490,
-					"behaviorType": "Platform",
-					"parameters": {
-						"jump-strength": "450 + 250*(1/ChargeJumpBar)"
 					}
 				}
 			],
@@ -639,19 +626,24 @@
 		},
 		{
 			"eventType": "comment",
-			"text": "If the charge jump bar is at max, set jump strength to super jump, otherwise reset to normal jump"
+			"text": "Set jump strength based on charge jump bar value combined with default jump strength"
 		},
 		{
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 912654820282087
+				},
+				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 530398076216928,
+					"sid": 623744373628638,
 					"parameters": {
 						"variable": "ChargeJumpBar",
-						"comparison": 0,
-						"value": "ChargeJumpBarMax"
+						"comparison": 4,
+						"value": "0"
 					}
 				}
 			],
@@ -659,14 +651,14 @@
 				{
 					"id": "set-jump-strength",
 					"objectClass": "player_box",
-					"sid": 645581495676311,
+					"sid": 462670268031208,
 					"behaviorType": "Platform",
 					"parameters": {
-						"jump-strength": "ChargeJumpStrength"
+						"jump-strength": "DefaultJumpStrength + ( (ChargeJumpBar / ChargeJumpBarMax) * ChargeJumpStrength)"
 					}
 				}
 			],
-			"sid": 451234637830430
+			"sid": 557032606707823
 		},
 		{
 			"eventType": "block",
@@ -674,21 +666,21 @@
 				{
 					"id": "else",
 					"objectClass": "System",
-					"sid": 639006545226304
+					"sid": 159226325556444
 				}
 			],
 			"actions": [
 				{
 					"id": "set-jump-strength",
 					"objectClass": "player_box",
-					"sid": 162997501696460,
+					"sid": 740001239493991,
 					"behaviorType": "Platform",
 					"parameters": {
-						"jump-strength": "450"
+						"jump-strength": "DefaultJumpStrength"
 					}
 				}
 			],
-			"sid": 164977468498302
+			"sid": 897551759401515
 		},
 		{
 			"eventType": "comment",
