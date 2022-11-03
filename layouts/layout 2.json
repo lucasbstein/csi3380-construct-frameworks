@@ -22,12 +22,6 @@
 					"uid": 84,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -40,6 +34,12 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						},
 						"Rotate": {
@@ -84,12 +84,6 @@
 					"uid": 86,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -102,6 +96,12 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						},
 						"Rotate": {

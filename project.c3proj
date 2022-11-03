@@ -205,7 +205,8 @@
 			"TiledBackground",
 			"TiledBackground2",
 			"txtStory",
-			"Sprite"
+			"Sprite",
+			"spawnpoint_flag_sprite"
 		],
 		"subfolders": []
 	},

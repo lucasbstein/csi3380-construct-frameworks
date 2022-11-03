@@ -255,14 +255,6 @@
 					"uid": 697,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -273,6 +265,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -307,14 +307,6 @@
 					"uid": 698,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -325,6 +317,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -359,14 +359,6 @@
 					"uid": 699,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -377,6 +369,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -411,14 +411,6 @@
 					"uid": 700,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -429,6 +421,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -900,14 +900,6 @@
 					"uid": 711,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -918,6 +910,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -952,14 +952,6 @@
 					"uid": 712,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -970,6 +962,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1004,14 +1004,6 @@
 					"uid": 713,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1022,6 +1014,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1056,14 +1056,6 @@
 					"uid": 821,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1074,6 +1066,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1108,14 +1108,6 @@
 					"uid": 822,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1126,6 +1118,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1160,14 +1160,6 @@
 					"uid": 823,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1178,6 +1170,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1212,14 +1212,6 @@
 					"uid": 824,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1230,6 +1222,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1264,14 +1264,6 @@
 					"uid": 825,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1282,6 +1274,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1316,14 +1316,6 @@
 					"uid": 826,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1334,6 +1326,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1368,14 +1368,6 @@
 					"uid": 827,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1386,6 +1378,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1420,14 +1420,6 @@
 					"uid": 828,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1438,6 +1430,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1472,14 +1472,6 @@
 					"uid": 829,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1490,6 +1482,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1524,14 +1524,6 @@
 					"uid": 830,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1542,6 +1534,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1576,14 +1576,6 @@
 					"uid": 831,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1594,6 +1586,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1628,14 +1628,6 @@
 					"uid": 832,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1646,6 +1638,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -1680,14 +1680,6 @@
 					"uid": 833,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -1698,6 +1690,14 @@
 								"period-offset-random": 0,
 								"magnitude": 50,
 								"magnitude-random": 0,
+								"enabled": false,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
 								"enabled": false,
 								"live-preview": false
 							}
@@ -2160,12 +2160,6 @@
 					"uid": 844,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -2178,6 +2172,12 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						},
 						"Rotate": {
@@ -2218,14 +2218,6 @@
 					"uid": 845,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -2237,6 +2229,14 @@
 								"magnitude": 32,
 								"magnitude-random": 0,
 								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"enabled": false,
 								"live-preview": false
 							}
 						}
@@ -2274,12 +2274,6 @@
 					"uid": 846,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -2292,6 +2286,12 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						},
 						"Rotate": {
@@ -2332,14 +2332,6 @@
 					"uid": 847,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -2351,6 +2343,14 @@
 								"magnitude": 32,
 								"magnitude-random": 0,
 								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"enabled": false,
 								"live-preview": false
 							}
 						}
@@ -2829,12 +2829,6 @@
 					"uid": 857,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -2847,6 +2841,12 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						},
 						"Rotate": {
@@ -2887,14 +2887,6 @@
 					"uid": 858,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -2906,6 +2898,14 @@
 								"magnitude": 32,
 								"magnitude-random": 0,
 								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"enabled": false,
 								"live-preview": false
 							}
 						}
@@ -2943,12 +2943,6 @@
 					"uid": 859,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -2961,6 +2955,12 @@
 								"magnitude-random": 0,
 								"enabled": true,
 								"live-preview": false
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
 							}
 						},
 						"Rotate": {
@@ -3001,14 +3001,6 @@
 					"uid": 860,
 					"instanceVariables": {},
 					"behaviors": {
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
 						"Sine": {
 							"properties": {
 								"movement": "horizontal",
@@ -3020,6 +3012,14 @@
 								"magnitude": 32,
 								"magnitude-random": 0,
 								"enabled": true,
+								"live-preview": false
+							}
+						},
+						"Rotate": {
+							"properties": {
+								"speed": 180,
+								"acceleration": 0,
+								"enabled": false,
 								"live-preview": false
 							}
 						}
@@ -4351,6 +4351,64 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "spawnpoint_flag_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1409,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 584,
+						"y": 2936,
+						"width": 16,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "spawnpoint_flag_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1410,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1472,
+						"y": 2504,
+						"width": 16,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 884922607537660,
@@ -4670,10 +4728,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 568,
-						"y": 2920,
-						"width": 8,
-						"height": 8,
+						"x": 584,
+						"y": 2912,
+						"width": 24,
+						"height": 24,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -4700,9 +4758,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 1472,
-						"y": 2488,
-						"width": 8,
-						"height": 8,
+						"y": 2480,
+						"width": 16,
+						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

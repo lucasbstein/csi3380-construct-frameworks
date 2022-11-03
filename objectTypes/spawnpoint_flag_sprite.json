@@ -1,21 +1,10 @@
 {
-	"name": "spike_sprite",
+	"name": "spawnpoint_flag_sprite",
 	"plugin-id": "Sprite",
-	"sid": 359769408486447,
+	"sid": 994909855828137,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Sin",
-			"name": "Sine",
-			"sid": 975713537570571
-		},
-		{
-			"behaviorId": "Rotate",
-			"name": "Rotate",
-			"sid": 899264100838473
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -23,28 +12,18 @@
 				"frames": [
 					{
 						"width": 16,
-						"height": 16,
-						"originX": 0,
+						"height": 48,
+						"originX": 0.5,
 						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9144626,
-						"collisionPoly": {
-							"points": [
-								0.5,
-								0.1875,
-								1,
-								1,
-								0,
-								1
-							]
-						},
+						"imageSpriteId": 577879,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 151562699538072,
+				"sid": 752831288657779,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -6,14 +6,14 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 592026524174825
-		},
-		{
 			"behaviorId": "Sin",
 			"name": "Sine",
 			"sid": 774566308363845
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 592026524174825
 		},
 		{
 			"behaviorId": "Rotate",
