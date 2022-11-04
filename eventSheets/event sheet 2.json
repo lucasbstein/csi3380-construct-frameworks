@@ -1144,6 +1144,14 @@
 					}
 				},
 				{
+					"id": "set-width",
+					"objectClass": "player_health_bar",
+					"sid": 858905866614206,
+					"parameters": {
+						"width": "80"
+					}
+				},
+				{
 					"id": "spawn-another-object",
 					"objectClass": "player_box",
 					"sid": 369509218720144,
