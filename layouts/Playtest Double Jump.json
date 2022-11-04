@@ -4409,6 +4409,77 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "status_container_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 206,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 40,
+						"y": 3048,
+						"width": 120,
+						"height": 48,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							0.6
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "txt_tutorial_controls",
+					"properties": {
+						"text": "Double Jump Pickup Enables the Double Jump Ability to Jump in air",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 7,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 207,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 48,
+						"y": 3000,
+						"width": 120,
+						"height": 72,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 884922607537660,

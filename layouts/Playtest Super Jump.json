@@ -11421,6 +11421,148 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "status_container_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 210,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 40,
+						"y": 3064,
+						"width": 120,
+						"height": 56,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							0.6
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "txt_tutorial_controls",
+					"properties": {
+						"text": "Super Jump Pick Enables the Super Jump Ability",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 7,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 213,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 48,
+						"y": 3016,
+						"width": 104,
+						"height": 96,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "status_container_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 214,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 416,
+						"y": 3072,
+						"width": 120,
+						"height": 72,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							0.6
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "txt_tutorial_controls",
+					"properties": {
+						"text": "Instructions: Hold S Key without moving to charge, then press the jump key to super jump",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 7,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 215,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 424,
+						"y": 3008,
+						"width": 104,
+						"height": 64,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 545129191185261,
