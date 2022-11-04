@@ -11507,9 +11507,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 416,
-						"y": 3072,
+						"y": 3112,
 						"width": 120,
-						"height": 72,
+						"height": 112,
 						"originX": 0,
 						"originY": 1,
 						"color": [
@@ -11525,7 +11525,7 @@
 				{
 					"type": "txt_tutorial_controls",
 					"properties": {
-						"text": "Instructions: Hold S Key without moving to charge, then press the jump key to super jump",
+						"text": "Instructions: Hold S Key without moving to charge, then press the jump key to super jump\n\nJump: W, K, Spacebar,\n       or Up Arrow",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 7,
@@ -11551,7 +11551,7 @@
 						"x": 424,
 						"y": 3008,
 						"width": 104,
-						"height": 64,
+						"height": 104,
 						"originX": 0,
 						"originY": 0,
 						"color": [

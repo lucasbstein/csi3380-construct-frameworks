@@ -2716,10 +2716,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 272,
-						"y": 192,
+						"x": 232,
+						"y": 216,
 						"width": 112,
-						"height": 72,
+						"height": 96,
 						"originX": 0,
 						"originY": 1,
 						"color": [
@@ -2735,7 +2735,7 @@
 				{
 					"type": "txt_tutorial_controls",
 					"properties": {
-						"text": "Move: A and D keys\n       or Arrow Keys\n\nJump: W, K, Spacebar,\n       or Up Arrow",
+						"text": "Move: A and D keys\n       or Arrow Keys\n\nJump: W, K, Spacebar,\n       or Up Arrow\n\nQuit: Escape Key",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 7,
@@ -2758,7 +2758,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 280,
+						"x": 240,
 						"y": 120,
 						"width": 112,
 						"height": 96,
