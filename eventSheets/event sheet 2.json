@@ -1549,6 +1549,71 @@
 			"sid": 571185515707611
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "player_box",
+					"sid": 359462803817926,
+					"parameters": {
+						"object": "spawnpoint_flag_sprite"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "spawnpoint_flag_sprite",
+					"sid": 673316176531365,
+					"parameters": {
+						"instance-variable": "Activated"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "spawnpoint_flag_sprite",
+					"sid": 229666128066727,
+					"parameters": {
+						"object": "particle_checkpoint",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "rotate-counter-clockwise",
+					"objectClass": "particle_checkpoint",
+					"sid": 930438214107542,
+					"parameters": {
+						"degrees": "90"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 617540265554252,
+					"parameters": {
+						"audio-file": "SwitchActivate",
+						"loop": "not-looping",
+						"volume": "-20",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "spawnpoint_flag_sprite",
+					"sid": 839751945917267,
+					"parameters": {
+						"instance-variable": "Activated",
+						"value": "true"
+					}
+				}
+			],
+			"sid": 457228819313425
+		},
+		{
 			"eventType": "comment",
 			"text": "\n\n--------------------------------------------- SWORD PROPERTIES---------------------------------------------------\n\n"
 		},

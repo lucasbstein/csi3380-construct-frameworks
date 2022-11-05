@@ -190,7 +190,7 @@
 					},
 					"uid": 1224,
 					"instanceVariables": {
-						"LayoutDestination": "Playtest Double Jump"
+						"LayoutDestination": "Playtest Super Jump"
 					},
 					"behaviors": {},
 					"world": {
@@ -263,7 +263,7 @@
 					},
 					"uid": 1226,
 					"instanceVariables": {
-						"LayoutDestination": "Playtest Super Jump"
+						"LayoutDestination": "Playtest Double Jump"
 					},
 					"behaviors": {},
 					"world": {

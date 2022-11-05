@@ -3,7 +3,15 @@
 	"plugin-id": "Sprite",
 	"sid": 994909855828137,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Activated",
+			"type": "boolean",
+			"desc": "",
+			"show": true,
+			"sid": 833865776811184
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
@@ -20,6 +28,13 @@
 						"exportQuality": 0.8,
 						"imageSpriteId": 577879,
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5625,
+								"y": 0.10416666666666667
+							}
+						],
 						"duration": 1
 					}
 				],

@@ -206,7 +206,8 @@
 			"TiledBackground2",
 			"txtStory",
 			"Sprite",
-			"spawnpoint_flag_sprite"
+			"spawnpoint_flag_sprite",
+			"particle_checkpoint"
 		],
 		"subfolders": []
 	},

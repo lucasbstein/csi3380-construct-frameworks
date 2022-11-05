@@ -194,7 +194,7 @@
 					},
 					"uid": 921,
 					"instanceVariables": {
-						"LayoutDestination": "Playtest Combined"
+						"LayoutDestination": "Playtest Double Jump"
 					},
 					"behaviors": {},
 					"world": {
@@ -11374,7 +11374,9 @@
 						"live-preview": false
 					},
 					"uid": 1407,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Activated": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 296,
@@ -11403,7 +11405,9 @@
 						"live-preview": false
 					},
 					"uid": 1408,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Activated": false
+					},
 					"behaviors": {},
 					"world": {
 						"x": 296,
