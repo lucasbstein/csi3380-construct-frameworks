@@ -117,7 +117,7 @@
 					},
 					"uid": 58,
 					"instanceVariables": {
-						"LayoutDestination": "Playtest Menu Screen"
+						"LayoutDestination": "Title Screen"
 					},
 					"behaviors": {},
 					"world": {
@@ -140,7 +140,7 @@
 				{
 					"type": "txtYouWin",
 					"properties": {
-						"text": "Return to Menu",
+						"text": "Return to Title",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 5,

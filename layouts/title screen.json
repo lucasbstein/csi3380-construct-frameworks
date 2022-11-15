@@ -190,13 +190,13 @@
 					},
 					"uid": 286,
 					"instanceVariables": {
-						"LayoutDestination": "Sandbox World"
+						"LayoutDestination": "Level Select Screen"
 					},
 					"behaviors": {},
 					"world": {
 						"x": 288,
 						"y": 208,
-						"width": 32,
+						"width": 64,
 						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -213,7 +213,7 @@
 				{
 					"type": "txtYouWin",
 					"properties": {
-						"text": "Sandbox",
+						"text": "Level Select",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 5,

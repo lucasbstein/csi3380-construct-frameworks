@@ -1,5 +1,5 @@
 {
-	"name": "Playtest Double Jump",
+	"name": "Level 3",
 	"layers": [
 		{
 			"name": "Game World",
@@ -36,7 +36,7 @@
 							"height": 138,
 							"max-width": 454,
 							"max-height": 264,
-							"data": "92x0,46x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,1045x0,1,263x0,1,263x0,1,263x0,1,784x0,2x1,262x0,2x1,262x0,2x1,256x0,8x1,256x0,8x1,256x0,8x1,1291x0,23x1,241x0,23x1,262x0,2x1,262x0,2x1,5x0,2x1,255x0,2x1,5x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,255x0,2x1,5x0,2x1,255x0,2x1,5x0,2x1,255x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,2886x0,1,2884x0,1,7x0,1,3x0,1,789x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,233x0,3x1,4x0,3x1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,6x1,0,20x1,5x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,241x0,1,20x0,2x1,241x0,1,20x0,2x1,241x0,1,20x0,2x1,241x0,1,20x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,228x0,1,0,6x1,0,20x1,5x0,2x1,228x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,3x1,4x0,3x1,92594x0"
+							"data": "92x0,46x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,260x0,4x1,253x0,3x1,4x0,4x1,253x0,3x1,4x0,4x1,253x0,3x1,4x0,4x1,253x0,3x1,4x0,4x1,253x0,3x1,4x0,4x1,253x0,3x1,4x0,4x1,246x0,2x1,5x0,3x1,254x0,2x1,5x0,3x1,254x0,2x1,5x0,3x1,248x0,8x1,256x0,8x1,256x0,8x1,1291x0,23x1,241x0,23x1,262x0,2x1,262x0,2x1,5x0,2x1,255x0,2x1,5x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,255x0,2x1,5x0,2x1,255x0,2x1,5x0,2x1,255x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,2886x0,1,2884x0,1,7x0,1,3x0,1,789x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,233x0,3x1,4x0,3x1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,6x1,0,20x1,5x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,241x0,1,20x0,2x1,241x0,1,20x0,2x1,241x0,1,20x0,2x1,241x0,1,20x0,2x1,262x0,2x1,262x0,2x1,262x0,2x1,228x0,1,0,6x1,0,20x1,5x0,2x1,228x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,1,0,1,4x0,1,0,1,254x0,3x1,4x0,3x1,92594x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -194,7 +194,7 @@
 					},
 					"uid": 695,
 					"instanceVariables": {
-						"LayoutDestination": "Playtest Combined"
+						"LayoutDestination": "Level 4"
 					},
 					"behaviors": {},
 					"world": {
@@ -233,110 +233,6 @@
 						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "spike_sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 697,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 272,
-						"y": 3032,
-						"width": 16,
-						"height": 16,
-						"originX": 0,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "spike_sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 698,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 256,
-						"y": 3032,
-						"width": 16,
-						"height": 16,
-						"originX": 0,
-						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -400,58 +296,6 @@
 					}
 				},
 				{
-					"type": "spike_sprite",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 700,
-					"instanceVariables": {},
-					"behaviors": {
-						"Sine": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						},
-						"Rotate": {
-							"properties": {
-								"speed": 180,
-								"acceleration": 0,
-								"enabled": false,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 368,
-						"y": 2848,
-						"width": 16,
-						"height": 16,
-						"originX": 0,
-						"originY": 1,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.71238898038469,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "pickup_double_jump_sprite",
 					"properties": {
 						"initially-visible": true,
@@ -464,10 +308,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 152,
-						"y": 3128,
-						"width": 8,
-						"height": 8,
+						"x": 156,
+						"y": 3132,
+						"width": 16,
+						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -570,11 +414,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -1810,11 +1649,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2022,11 +1856,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -3056,7 +2885,7 @@
 					},
 					"uid": 861,
 					"instanceVariables": {
-						"LayoutDestination": "Playtest Combined"
+						"LayoutDestination": "Level 4"
 					},
 					"behaviors": {},
 					"world": {
@@ -4427,9 +4256,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 40,
+						"x": 32,
 						"y": 3048,
-						"width": 120,
+						"width": 128,
 						"height": 48,
 						"originX": 0,
 						"originY": 1,
@@ -4446,7 +4275,7 @@
 				{
 					"type": "txt_tutorial_controls",
 					"properties": {
-						"text": "Double Jump Pickup Enables the Double Jump Ability to Jump in air",
+						"text": "Touch Double Jump Pickup to Enable Double Jump Ability",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 7,
@@ -4469,7 +4298,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 48,
+						"x": 40,
 						"y": 3000,
 						"width": 120,
 						"height": 72,
@@ -4590,10 +4419,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 8,
+						"x": 64,
 						"y": 64,
 						"width": 136,
-						"height": 48,
+						"height": 32,
 						"originX": 0,
 						"originY": 1,
 						"color": [
@@ -4619,8 +4448,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 51,
-						"y": 43,
+						"x": 104,
+						"y": 56,
 						"width": 80,
 						"height": 8,
 						"originX": 0,
@@ -4641,7 +4470,7 @@
 						"text": "0",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 7,
+						"size": 5,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -4661,8 +4490,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 16,
-						"y": 16,
+						"x": 72,
+						"y": 32,
 						"width": 96,
 						"height": 16,
 						"originX": 0,
@@ -4690,8 +4519,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 51,
-						"y": 43,
+						"x": 104,
+						"y": 56,
 						"width": 80,
 						"height": 8,
 						"originX": 0,
@@ -4712,7 +4541,7 @@
 						"text": "Health:",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 7,
+						"size": 5,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -4732,83 +4561,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 16,
-						"y": 32,
+						"x": 72,
+						"y": 48,
 						"width": 32,
 						"height": 16,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "txtChargeJump",
-					"properties": {
-						"text": "Jump Charge:",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 7,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 911,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 16,
-						"y": 48,
-						"width": 96,
-						"height": 24,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "player_jump_charge_bar",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 912,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 91,
-						"y": 59,
-						"width": 8,
-						"height": 8,
-						"originX": 0,
-						"originY": 1,
 						"color": [
 							1,
 							1,

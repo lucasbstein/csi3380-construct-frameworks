@@ -1,5 +1,5 @@
 {
-	"name": "Rami Test Level2",
+	"name": "Level 7",
 	"layers": [
 		{
 			"name": "Game World",
@@ -36,7 +36,7 @@
 							"height": 60,
 							"max-width": 107,
 							"max-height": 60,
-							"data": "8x0,57,4x55,57,34,3x44,45,5x58,25x67,19x0,57,4x0,57,52,71,72,71,32,5x58,24x0,67,19x0,57,4x0,57,52,71,72,71,32,5x58,24x0,67,19x0,57,4x0,57,52,71,72,71,32,5x58,13x0,5x67,6x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,12x0,2x67,10x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,11x0,2x67,11x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,10x0,2x67,12x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,8x0,3x67,13x0,58,19x0,57,4x0,57,52,71,2x72,32,5x58,8x0,67,15x0,58,19x0,57,4x0,57,52,71,2x72,32,5x58,8x0,67,15x0,58,19x0,57,4x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,18x0,2x57,4x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,17x0,2x57,5x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,17x0,57,6x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,15x0,3x57,6x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,14x0,2x57,8x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,14x0,57,9x0,57,35,51,72,71,32,5x58,8x0,9x67,7x0,58,13x0,2x57,9x0,2x57,52,72,71,32,5x58,16x0,67,7x0,58,13x0,57,3x0,4x57,4x0,57,52,72,71,32,5x58,16x0,67,7x0,58,13x0,57,3x0,57,2x71,57,4x0,57,52,72,71,32,5x58,16x0,67,7x0,58,13x0,57,3x0,57,2x71,57,4x0,57,52,72,71,32,5x58,8x0,9x67,7x0,58,13x0,57,3x0,57,2x71,57,4x0,57,52,72,71,32,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,2x57,52,72,71,32,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,34,53,71,31,46,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,71,31,46,6x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,71,32,7x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,31,46,58,0,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,32,2x58,0,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,35,46,58,2x0,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,4x58,2x0,5x58,8x0,9x67,7x0,58,13x0,57,3x0,4x57,3x0,2x58,4x0,5x58,16x0,67,3x0,58,3x0,58,13x0,57,10x0,58,5x0,5x58,16x0,67,3x0,58,3x0,58,13x0,57,16x0,5x58,16x0,67,3x0,2x58,2x0,58,13x0,57,16x0,5x58,16x0,67,4x0,2x58,0,58,13x0,57,16x0,5x58,8x0,9x67,5x0,3x58,10x0,67,2x0,57,16x0,5x58,8x0,67,14x0,2x58,10x0,67,2x0,57,16x0,5x58,8x0,67,26x0,67,2x0,57,10x0,11x58,8x0,67,26x0,67,2x0,57,10x0,58,3x0,68,0,5x58,8x0,67,26x0,67,2x0,57,10x0,58,3x0,7x58,8x0,67,26x0,67,2x0,57,10x0,58,3x0,68,0,5x58,8x0,67,26x0,67,2x0,57,10x0,58,5x0,5x58,8x0,67,26x0,67,2x0,57,10x0,6x25,5x58,8x0,9x67,18x0,67,2x0,58,16x0,5x58,16x0,67,21x0,58,16x0,5x58,16x0,67,21x0,58,12x0,9x58,16x0,67,21x0,58,12x0,58,2x0,68,5x58,16x0,67,21x0,58,12x0,58,2x0,6x58,16x0,67,21x0,58,12x0,58,2x0,68,5x58,8x0,9x67,21x0,58,12x0,9x58,8x0,67,26x0,67,2x0,58,16x0,5x58,8x0,67,26x0,67,2x0,58,16x0,5x58,8x0,67,26x0,67,2x0,58,7x0,9x67,5x58,8x0,67,26x0,67,2x0,58,7x0,58,8x0,5x58,8x0,67,26x0,67,2x0,58,7x0,58,4x0,69,3x0,5x58,8x0,67,26x0,67,2x0,58,7x0,58,4x0,68,8x58,8x0,67,26x0,67,2x0,2x58,6x0,58,4x0,68,3x0,5x58,8x0,67,26x0,67,3x0,58,6x0,14x58,8x0,67,30x0,58,28x0,67,14x0,2x58,14x0,58,28x0,67,13x0,3x58,14x0,58,28x0,67,12x0,2x58,0,58,14x0,58,28x0,58,11x0,2x58,2x0,58,14x0,58,28x0,58,10x0,2x58,3x0,58,14x0,58,28x0,58,10x0,58,3x0,2x58,14x0,30x58,14x0,58,18x0,58,9x0,68,30x0,58,18x0,58,40x0,58,18x0,58,39x0,2x58,18x0,58,39x0,58,19x0,58,39x0,58,19x0,58,39x0,58,19x0,58,17x0,68,21x0,58,19x0,58,17x0,68,12x0,58,8x0,58,19x0,58,17x0,68,12x0,58,8x0,58,19x0,58,2x0,38x58,19x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,59x0,58,59x0,58,59x0,58,59x0,58,59x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,38x58,7x67,12x0,58,59x0,58,59x0,41x58,7x67,59x0,2x67,545x0"
+							"data": "8x0,57,4x55,57,34,3x44,45,5x58,25x67,19x0,57,4x0,57,52,71,72,71,32,5x58,24x0,67,19x0,57,4x0,57,52,71,72,71,32,5x58,24x0,67,19x0,57,4x0,57,52,71,72,71,32,5x58,13x0,5x67,6x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,12x0,2x67,10x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,11x0,2x67,11x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,10x0,2x67,12x0,67,19x0,57,4x0,57,52,71,2x72,32,5x58,8x0,3x67,13x0,58,19x0,57,4x0,57,52,71,2x72,32,5x58,8x0,67,15x0,58,19x0,57,4x0,57,52,71,2x72,32,5x58,8x0,67,15x0,58,19x0,57,4x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,18x0,2x57,4x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,17x0,2x57,5x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,17x0,57,6x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,15x0,3x57,6x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,14x0,2x57,8x0,57,52,71,72,71,32,5x58,8x0,67,15x0,58,14x0,57,9x0,57,35,51,72,71,32,5x58,8x0,9x67,7x0,58,13x0,2x57,9x0,2x57,52,72,71,32,5x58,16x0,67,7x0,58,13x0,57,3x0,4x57,4x0,57,52,72,71,32,5x58,16x0,67,7x0,58,13x0,57,3x0,57,2x71,57,4x0,57,52,72,71,32,5x58,16x0,67,7x0,58,13x0,57,3x0,57,2x71,57,4x0,57,52,72,71,32,5x58,8x0,9x67,7x0,58,13x0,57,3x0,57,2x71,57,4x0,57,52,72,71,32,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,2x57,52,72,71,32,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,34,53,71,31,46,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,71,31,46,6x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,71,32,7x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,31,46,58,0,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,52,32,2x58,0,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,57,35,46,58,2x0,5x58,8x0,67,15x0,58,13x0,57,3x0,57,2x71,57,3x0,4x58,2x0,5x58,8x0,9x67,7x0,58,13x0,57,3x0,4x57,3x0,2x58,4x0,5x58,16x0,67,3x0,58,3x0,58,13x0,57,10x0,58,5x0,5x58,16x0,67,3x0,58,3x0,58,13x0,57,16x0,5x58,16x0,67,3x0,2x58,2x0,58,13x0,57,16x0,5x58,16x0,67,4x0,2x58,0,58,13x0,57,16x0,5x58,8x0,9x67,5x0,3x58,10x0,67,2x0,57,16x0,5x58,8x0,67,14x0,2x58,10x0,67,2x0,57,16x0,5x58,8x0,67,26x0,67,2x0,57,10x0,11x58,8x0,67,26x0,67,2x0,57,10x0,58,3x0,68,0,5x58,8x0,67,26x0,67,2x0,57,10x0,58,3x0,7x58,8x0,67,26x0,67,2x0,57,10x0,58,3x0,68,0,5x58,8x0,67,26x0,67,2x0,57,10x0,58,5x0,5x58,8x0,67,26x0,67,2x0,57,10x0,6x25,5x58,8x0,9x67,18x0,67,2x0,58,16x0,5x58,16x0,67,18x0,67,2x0,58,16x0,5x58,16x0,67,18x0,67,2x0,58,12x0,9x58,16x0,67,18x0,67,2x0,58,12x0,58,2x0,68,5x58,16x0,67,18x0,67,2x0,58,12x0,58,2x0,6x58,16x0,67,18x0,67,2x0,58,12x0,58,2x0,68,5x58,8x0,9x67,18x0,67,2x0,58,12x0,9x58,8x0,67,26x0,67,2x0,58,16x0,5x58,8x0,67,26x0,67,2x0,58,16x0,5x58,8x0,67,26x0,67,2x0,58,7x0,9x67,5x58,8x0,67,26x0,67,2x0,58,7x0,58,8x0,5x58,8x0,67,26x0,67,2x0,58,7x0,58,4x0,69,3x0,5x58,8x0,67,26x0,67,2x0,58,7x0,58,4x0,68,8x58,8x0,67,26x0,67,2x0,2x58,6x0,58,4x0,68,3x0,5x58,8x0,67,26x0,67,3x0,58,6x0,14x58,8x0,67,30x0,58,28x0,67,14x0,2x58,14x0,58,28x0,67,13x0,3x58,14x0,58,28x0,67,12x0,2x58,0,58,14x0,58,28x0,58,11x0,2x58,2x0,58,14x0,58,28x0,58,10x0,2x58,3x0,58,14x0,58,28x0,58,10x0,58,3x0,2x58,14x0,30x58,14x0,58,18x0,58,9x0,68,30x0,58,18x0,58,40x0,58,18x0,58,39x0,2x58,18x0,58,39x0,58,19x0,58,39x0,58,19x0,58,39x0,58,19x0,58,17x0,68,21x0,58,19x0,58,17x0,68,12x0,58,8x0,58,19x0,58,17x0,68,12x0,58,8x0,58,19x0,58,2x0,38x58,19x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,59x0,58,59x0,58,59x0,58,59x0,58,59x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,58,56x0,58,2x0,38x58,7x67,12x0,58,59x0,58,59x0,41x58,7x67,59x0,2x67,545x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -245,7 +245,7 @@
 					},
 					"world": {
 						"x": 32,
-						"y": 192,
+						"y": 208,
 						"width": 7,
 						"height": 21,
 						"originX": 0.5,
@@ -280,7 +280,7 @@
 					},
 					"world": {
 						"x": 32,
-						"y": 176,
+						"y": 184,
 						"width": 32,
 						"height": 32,
 						"originX": 0.5,
@@ -310,7 +310,7 @@
 					},
 					"uid": 158,
 					"instanceVariables": {
-						"LayoutDestination": "Level3"
+						"LayoutDestination": "Level 8"
 					},
 					"behaviors": {},
 					"world": {
@@ -440,11 +440,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -545,11 +540,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -1267,16 +1257,11 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
 						"x": 736,
-						"y": 992,
+						"y": 952,
 						"width": 416,
 						"height": 288,
 						"originX": 0.5357142857142857,
@@ -1325,7 +1310,7 @@
 					},
 					"world": {
 						"x": 0,
-						"y": 808,
+						"y": 792,
 						"width": 1712,
 						"height": 144,
 						"originX": 0,
@@ -1598,10 +1583,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 248,
-						"y": 192,
-						"width": 8,
-						"height": 8,
+						"x": 252,
+						"y": 196,
+						"width": 16,
+						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1627,10 +1612,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1112,
-						"y": 720,
-						"width": 8,
-						"height": 8,
+						"x": 1116,
+						"y": 724,
+						"width": 16,
+						"height": 16,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1675,11 +1660,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -1731,11 +1711,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -1903,11 +1878,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2046,11 +2016,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2160,11 +2125,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2216,11 +2176,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2301,11 +2256,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2415,11 +2365,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2471,11 +2416,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2527,11 +2467,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2583,11 +2518,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2639,11 +2569,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2695,11 +2620,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2751,11 +2671,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -2981,11 +2896,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -3037,11 +2947,6 @@
 						},
 						"DestroyOutsideLayout": {
 							"properties": {}
-						},
-						"Tween": {
-							"properties": {
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -3205,6 +3110,271 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "spawnpoint_flag_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 628,
+					"instanceVariables": {
+						"Activated": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 136,
+						"y": 512,
+						"width": 16,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "spawnpoint_flag_sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 629,
+					"instanceVariables": {
+						"Activated": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 1008,
+						"y": 688,
+						"width": 16,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "spawnPoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 626,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 32,
+						"y": 192,
+						"width": 8,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "spawnPoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 627,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 136,
+						"y": 484,
+						"width": 32,
+						"height": -40,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "spawnPoint",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 630,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1008,
+						"y": 664,
+						"width": 32,
+						"height": -40,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EdgeMarker",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 726,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 920,
+						"y": 208,
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EdgeMarker",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 727,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1016,
+						"y": 208,
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EdgeMarker",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1247,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 920,
+						"y": 344,
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EdgeMarker",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 1248,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1016,
+						"y": 344,
+						"width": 16,
+						"height": 16,
+						"originX": 0,
+						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 914093181081736,
@@ -3253,10 +3423,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 8,
+						"x": 64,
 						"y": 64,
 						"width": 136,
-						"height": 48,
+						"height": 32,
 						"originX": 0,
 						"originY": 1,
 						"color": [
@@ -3282,8 +3452,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 51,
-						"y": 43,
+						"x": 104,
+						"y": 56,
 						"width": 80,
 						"height": 8,
 						"originX": 0,
@@ -3304,7 +3474,7 @@
 						"text": "0",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 7,
+						"size": 5,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -3324,8 +3494,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 16,
-						"y": 16,
+						"x": 72,
+						"y": 32,
 						"width": 64,
 						"height": 16,
 						"originX": 0,
@@ -3353,8 +3523,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 51,
-						"y": 43,
+						"x": 104,
+						"y": 56,
 						"width": 80,
 						"height": 8,
 						"originX": 0,
@@ -3375,7 +3545,7 @@
 						"text": "Health:",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 7,
+						"size": 5,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -3395,83 +3565,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 16,
-						"y": 32,
+						"x": 72,
+						"y": 48,
 						"width": 32,
 						"height": 16,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "txtChargeJump",
-					"properties": {
-						"text": "Jump Charge:",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 7,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 311,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 16,
-						"y": 48,
-						"width": 96,
-						"height": 24,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "player_jump_charge_bar",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 312,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 91,
-						"y": 59,
-						"width": 8,
-						"height": 8,
-						"originX": 0,
-						"originY": 1,
 						"color": [
 							1,
 							1,

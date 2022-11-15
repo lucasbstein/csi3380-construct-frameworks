@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 31700,
+	"savedWithRelease": 31702,
 	"name": "construct-gdchallenge-2-frameworks",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Particles",
 			"name": "Particles",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "scrollto",
 			"name": "Scroll To",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "Sin",
 			"name": "Sine",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "Rotate",
 			"name": "Rotate",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "jumpthru",
 			"name": "Jump-thru",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -123,15 +123,7 @@
 			"id": "destroy",
 			"name": "Destroy outside layout",
 			"author": "Scirra",
-			"version": "r317",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Tween",
-			"name": "Tween",
-			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -139,7 +131,7 @@
 			"id": "Flash",
 			"name": "Flash",
 			"author": "Scirra",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		},
 		{
@@ -147,7 +139,7 @@
 			"id": "water",
 			"name": "Water",
 			"author": "Viktor Korsun",
-			"version": "r317",
+			"version": "r317.2",
 			"bundled": false
 		}
 	],
@@ -181,7 +173,6 @@
 			"txtHealth",
 			"player_bar_gone",
 			"Tilemap_Ground",
-			"txtChargeJump",
 			"player_jump_charge_bar",
 			"txtbox_sprite",
 			"Audio",
@@ -207,7 +198,8 @@
 			"txtStory",
 			"Sprite",
 			"spawnpoint_flag_sprite",
-			"particle_checkpoint"
+			"particle_checkpoint",
+			"particle_jump"
 		],
 		"subfolders": []
 	},
@@ -219,26 +211,27 @@
 	},
 	"layouts": {
 		"items": [
-			"Playtest Menu Screen",
 			"Title Screen",
-			"Layout 1",
+			"Playtest Menu Screen",
+			"Level Select Screen",
+			"Story",
 			"Win Screen",
 			"Storage",
+			"Layout 1",
 			"Layout 2",
 			"Sandbox World",
-			"Test World",
-			"Rami Test Level",
-			"Rami Test Level2",
-			"Level3",
-			"bossroom1",
-			"bossroom2",
-			"bossroom3",
-			"Story",
+			"Training Level",
 			"Level 1",
-			"Playtest Normal Jump",
-			"Playtest Double Jump",
-			"Playtest Super Jump",
-			"Playtest Combined"
+			"Level 3",
+			"Level 2",
+			"Level 4",
+			"Level 5",
+			"Level 6",
+			"Level 7",
+			"Level 8",
+			"Boss Level 1.1",
+			"Boss Level 1.2",
+			"Boss Level 1.3"
 		],
 		"subfolders": []
 	},

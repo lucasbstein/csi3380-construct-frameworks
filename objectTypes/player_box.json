@@ -69,9 +69,9 @@
 								"y": 0.38095238095238093
 							},
 							{
-								"name": "JumpChargeArea",
-								"x": 0.5,
-								"y": 1
+								"name": "ChargeBar",
+								"x": 0,
+								"y": 0
 							}
 						],
 						"duration": 1

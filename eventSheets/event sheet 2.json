@@ -83,6 +83,26 @@
 		},
 		{
 			"eventType": "variable",
+			"name": "ChargeIncreaseSpeed",
+			"type": "number",
+			"initialValue": "1",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 659114123211770
+		},
+		{
+			"eventType": "variable",
+			"name": "ChargeDecreaseSpeed",
+			"type": "number",
+			"initialValue": "0.5",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 947922941849231
+		},
+		{
+			"eventType": "variable",
 			"name": "SpawnPointX",
 			"type": "number",
 			"initialValue": "0",
@@ -144,14 +164,6 @@
 					}
 				},
 				{
-					"id": "set-text",
-					"objectClass": "txtChargeJump",
-					"sid": 449179314010558,
-					"parameters": {
-						"text": "\"Jump Charge: \" & ChargeJumpBar"
-					}
-				},
-				{
 					"type": "comment",
 					"text": "Update the width of the charge jump bar"
 				},
@@ -184,6 +196,19 @@
 					"id": "reset-global-variables",
 					"objectClass": "System",
 					"sid": 244201420147048
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 311002352159764,
+					"parameters": {
+						"object-to-create": "player_jump_charge_bar",
+						"layer": "0",
+						"x": "0",
+						"y": "0",
+						"create-hierarchy": false,
+						"template-name": "\"\""
+					}
 				},
 				{
 					"type": "comment",
@@ -232,6 +257,39 @@
 					"sid": 518486828001983,
 					"parameters": {
 						"child": "camera_sprite",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": false
+					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "player_jump_charge_bar",
+					"sid": 466371702307668,
+					"parameters": {
+						"x": "player_box.ImagePointX(\"ChargeBar\") - 24",
+						"y": "player_box.ImagePointY(\"ChargeBar\") - 16"
+					}
+				},
+				{
+					"id": "set-size",
+					"objectClass": "player_jump_charge_bar",
+					"sid": 252748451353610,
+					"parameters": {
+						"width": "2",
+						"height": "2"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "player_box",
+					"sid": 579098922714907,
+					"parameters": {
+						"child": "player_jump_charge_bar",
 						"transform-x": true,
 						"transform-y": true,
 						"transform-w": true,
@@ -474,6 +532,15 @@
 					"parameters": {
 						"control": "jump"
 					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 763505495770041,
+					"parameters": {
+						"variable": "ChargeJumpBar",
+						"value": "0"
+					}
 				}
 			],
 			"sid": 244205043694491,
@@ -550,6 +617,39 @@
 			"isOrBlock": true
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "player_box",
+					"sid": 517607876571321,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "player_box",
+					"sid": 634756088168646,
+					"parameters": {
+						"object": "particle_jump",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "rotate-clockwise",
+					"objectClass": "particle_jump",
+					"sid": 659472155004493,
+					"parameters": {
+						"degrees": "90"
+					}
+				}
+			],
+			"sid": 134046593113124
+		},
+		{
 			"eventType": "comment",
 			"text": "If the player is holding the S key and not moving at all, then start charging the charge jump bar, otherwise set the bar to 0"
 		},
@@ -621,10 +721,10 @@
 								{
 									"id": "add-to-eventvar",
 									"objectClass": "System",
-									"sid": 624058251152071,
+									"sid": 973905045132438,
 									"parameters": {
 										"variable": "ChargeJumpBar",
-										"value": "1"
+										"value": "ChargeIncreaseSpeed"
 									}
 								}
 							],
@@ -643,18 +743,37 @@
 					"sid": 767155902185162
 				}
 			],
-			"actions": [
+			"actions": [],
+			"sid": 660990062011685,
+			"children": [
 				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 702961774165706,
-					"parameters": {
-						"variable": "ChargeJumpBar",
-						"value": "0"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 474558821525333,
+							"parameters": {
+								"variable": "ChargeJumpBar",
+								"comparison": 4,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 504138900362425,
+							"parameters": {
+								"variable": "ChargeJumpBar",
+								"value": "ChargeDecreaseSpeed"
+							}
+						}
+					],
+					"sid": 144912910130084
 				}
-			],
-			"sid": 660990062011685
+			]
 		},
 		{
 			"eventType": "comment",
@@ -781,6 +900,15 @@
 					"parameters": {
 						"key": 74
 					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 113296775031793,
+					"parameters": {
+						"key": 83
+					},
+					"isInverted": true
 				}
 			],
 			"actions": [
@@ -867,6 +995,105 @@
 				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
+					"sid": 604969547473542,
+					"parameters": {
+						"key": 74
+					}
+				},
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 741705716550385,
+					"parameters": {
+						"key": 83
+					}
+				}
+			],
+			"actions": [
+				{
+					"type": "comment",
+					"text": "Spawn Attack Hitbox"
+				},
+				{
+					"id": "spawn-another-object",
+					"objectClass": "player_box",
+					"sid": 114190255655403,
+					"parameters": {
+						"object": "sword_attack_hitbox",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Rotate Attack Hitbox below of player"
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "sword_attack_hitbox",
+					"sid": 781914179247983,
+					"parameters": {
+						"angle": "90"
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Face same direction as player"
+				},
+				{
+					"id": "set-width",
+					"objectClass": "sword_attack_hitbox",
+					"sid": 182773425461752,
+					"disabled": true,
+					"parameters": {
+						"width": "Self.Width * PlayerDirection"
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Attach Attack Hitbox to player"
+				},
+				{
+					"id": "add-child",
+					"objectClass": "player_box",
+					"sid": 710901724504716,
+					"parameters": {
+						"child": "sword_attack_hitbox",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": false
+					}
+				},
+				{
+					"type": "comment",
+					"text": "Play attack sound effect"
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 378182073142995,
+					"parameters": {
+						"audio-file": "PlayerAttack2",
+						"loop": "not-looping",
+						"volume": "-20",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 695018144428507
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
 					"sid": 722206481667181,
 					"parameters": {
 						"key": 27
@@ -875,11 +1102,11 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout-by-name",
+					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 114982678820370,
+					"sid": 683977910957891,
 					"parameters": {
-						"layout": "\"Playtest Menu Screen\""
+						"layout": "Title Screen"
 					}
 				}
 			],
@@ -1112,28 +1339,9 @@
 					"disabled": true
 				},
 				{
-					"callFunction": "RespawnPlayer",
-					"sid": 430298231931379
-				}
-			],
-			"sid": 146492566112021,
-			"isOrBlock": true
-		},
-		{
-			"functionName": "RespawnPlayer",
-			"functionDescription": "",
-			"functionCategory": "",
-			"functionReturnType": "none",
-			"functionCopyPicked": false,
-			"functionIsAsync": false,
-			"functionParameters": [],
-			"eventType": "function-block",
-			"conditions": [],
-			"actions": [
-				{
 					"id": "create-object",
 					"objectClass": "System",
-					"sid": 291654064433083,
+					"sid": 838912104072091,
 					"parameters": {
 						"object-to-create": "player_box",
 						"layer": "0",
@@ -1146,7 +1354,7 @@
 				{
 					"id": "set-width",
 					"objectClass": "player_health_bar",
-					"sid": 858905866614206,
+					"sid": 415746412527654,
 					"parameters": {
 						"width": "80"
 					}
@@ -1154,7 +1362,7 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "player_box",
-					"sid": 369509218720144,
+					"sid": 428685745845921,
 					"parameters": {
 						"object": "player_sprite",
 						"layer": "0",
@@ -1165,7 +1373,7 @@
 				{
 					"id": "set-position",
 					"objectClass": "player_box",
-					"sid": 407796513806832,
+					"sid": 696576560278357,
 					"parameters": {
 						"x": "SpawnPointX",
 						"y": "SpawnPointY"
@@ -1174,7 +1382,7 @@
 				{
 					"id": "set-position-to-another-object",
 					"objectClass": "player_sprite",
-					"sid": 538187698108512,
+					"sid": 291586169132613,
 					"parameters": {
 						"object": "player_box",
 						"image-point-optional": "0"
@@ -1183,7 +1391,7 @@
 				{
 					"id": "set-position",
 					"objectClass": "camera_sprite",
-					"sid": 329668411151899,
+					"sid": 776188811214618,
 					"parameters": {
 						"x": "player_box.X",
 						"y": "player_box.Y - (16*4)"
@@ -1192,7 +1400,7 @@
 				{
 					"id": "add-child",
 					"objectClass": "player_box",
-					"sid": 910825464335566,
+					"sid": 682633051897930,
 					"parameters": {
 						"child": "player_sprite",
 						"transform-x": true,
@@ -1207,7 +1415,7 @@
 				{
 					"id": "add-child",
 					"objectClass": "player_box",
-					"sid": 953160346582295,
+					"sid": 845495220465783,
 					"parameters": {
 						"child": "camera_sprite",
 						"transform-x": true,
@@ -1220,9 +1428,33 @@
 					}
 				},
 				{
+					"id": "set-position",
+					"objectClass": "player_jump_charge_bar",
+					"sid": 998567124211737,
+					"parameters": {
+						"x": "player_box.ImagePointX(\"ChargeBar\") - 24",
+						"y": "player_box.ImagePointY(\"ChargeBar\") - 16"
+					}
+				},
+				{
+					"id": "add-child",
+					"objectClass": "player_box",
+					"sid": 689871317061247,
+					"parameters": {
+						"child": "player_jump_charge_bar",
+						"transform-x": true,
+						"transform-y": true,
+						"transform-w": true,
+						"transform-h": true,
+						"transform-a": true,
+						"transform-z-elevation": true,
+						"destroy-with-parent": false
+					}
+				},
+				{
 					"id": "set-instvar-value",
 					"objectClass": "player_box",
-					"sid": 881121017830348,
+					"sid": 583577940770139,
 					"parameters": {
 						"instance-variable": "CanChargeJump",
 						"value": "RespawnWithChargeJump"
@@ -1231,14 +1463,15 @@
 				{
 					"id": "set-instvar-value",
 					"objectClass": "player_box",
-					"sid": 879476198015604,
+					"sid": 147005634604059,
 					"parameters": {
 						"instance-variable": "CanDoubleJump",
 						"value": "RespawnWithDoubleJump"
 					}
 				}
 			],
-			"sid": 501222211665924
+			"sid": 146492566112021,
+			"isOrBlock": true
 		},
 		{
 			"eventType": "block",
@@ -1801,12 +2034,38 @@
 					}
 				},
 				{
+					"id": "reset-double-jump",
+					"objectClass": "player_box",
+					"sid": 912938461123684,
+					"behaviorType": "Platform",
+					"parameters": {
+						"double-jump-allowed": true
+					}
+				},
+				{
 					"id": "set-max-speed",
 					"objectClass": "enemy",
 					"sid": 367057611160992,
 					"behaviorType": "Platform",
 					"parameters": {
 						"max-speed": "0"
+					}
+				},
+				{
+					"id": "set-gravity",
+					"objectClass": "enemy",
+					"sid": 116097831336172,
+					"behaviorType": "Platform",
+					"parameters": {
+						"gravity": "0"
+					}
+				},
+				{
+					"id": "set-collisions-enabled",
+					"objectClass": "enemy",
+					"sid": 412709968767687,
+					"parameters": {
+						"collisions": "disabled"
 					}
 				},
 				{
@@ -1826,6 +2085,10 @@
 						"instance-variable": "State",
 						"value": "\"\""
 					}
+				},
+				{
+					"callFunction": "sword_bounce",
+					"sid": 996986635417795
 				},
 				{
 					"type": "comment",
@@ -1912,6 +2175,47 @@
 				}
 			],
 			"sid": 223368640252977
+		},
+		{
+			"functionName": "sword_bounce",
+			"functionDescription": "",
+			"functionCategory": "",
+			"functionReturnType": "none",
+			"functionCopyPicked": false,
+			"functionIsAsync": false,
+			"functionParameters": [],
+			"eventType": "function-block",
+			"conditions": [],
+			"actions": [],
+			"sid": 747598326169198,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-within-angle",
+							"objectClass": "sword_attack_hitbox",
+							"sid": 825435807706324,
+							"parameters": {
+								"within": "0.5",
+								"angle": "90"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-vector-y",
+							"objectClass": "player_box",
+							"sid": 629338001635607,
+							"behaviorType": "Platform",
+							"parameters": {
+								"vector-y": "-450"
+							}
+						}
+					],
+					"sid": 777187800235634
+				}
+			]
 		}
 	],
 	"sid": 610213650637954
